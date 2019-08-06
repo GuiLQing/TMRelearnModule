@@ -15,6 +15,9 @@ target 'TMRelearnModule_Example' do
   pod 'MJRefresh'
   pod 'MJExtension'
   pod 'YJNetManager'
+  pod 'SGTools/SGSingleAudioPlayer'
+  pod 'SGTools/SGSpeechSynthesizer'
+  pod 'SGTools/SGVocabularyDictation'
   
 end
 
@@ -26,5 +29,8 @@ target 'TMRelearnModuleFramework' do
   pod 'MJRefresh'
   pod 'MJExtension'
   pod 'YJNetManager'
+  pod 'SGTools/SGSingleAudioPlayer'
+  pod 'SGTools/SGSpeechSynthesizer'
+  pod 'SGTools/SGVocabularyDictation'
   
 end

@@ -9,9 +9,7 @@
 #import "TMRelearnRequest.h"
 #import <YJNetManager/YJNetManager.h>
 #import "TMRelearnManager.h"
-
-#define TM_IsObjEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
-#define TM_HandleParams(_ref)  (TM_IsObjEmpty(_ref) ? @"" : _ref)
+#import "TMRelearnMacros.h"
 
 @implementation TMRelearnRequest
 

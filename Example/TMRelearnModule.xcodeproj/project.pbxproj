@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CB9DE7E322F995D200B44147 /* DataSource.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9DE7E222F995D200B44147 /* DataSource.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		192CBA8FE271EA239884907C /* Pods_TMRelearnModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMRelearnModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22EBDF45B2EC89BA75E2A8EC /* TMRelearnModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TMRelearnModule.podspec; path = ../TMRelearnModule.podspec; sourceTree = "<group>"; };
+		22EBDF45B2EC89BA75E2A8EC /* TMRelearnModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMRelearnModule.podspec; path = ../TMRelearnModule.podspec; sourceTree = "<group>"; };
 		3FDF2AB15531CFFECC92D988 /* Pods-TMRelearnModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMRelearnModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TMRelearnModule_Example/Pods-TMRelearnModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TMRelearnModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMRelearnModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,9 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3B34E90D38E1D2C43BB1AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3B34E90D38E1D2C43BB1AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA8420E8818B41719C62FF3C /* Pods-TMRelearnModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMRelearnModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TMRelearnModule_Example/Pods-TMRelearnModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC372CE8A70DD2BF768B1E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CB9DE7E222F995D200B44147 /* DataSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataSource.json; sourceTree = "<group>"; };
+		CB9DE7E422F995FB00B44147 /* TMRelearnModuleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TMRelearnModuleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9DE7E622F9969400B44147 /* TMRelearnModuleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TMRelearnModuleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC372CE8A70DD2BF768B1E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB9DE7E622F9969400B44147 /* TMRelearnModuleFramework.framework */,
+				CB9DE7E422F995FB00B44147 /* TMRelearnModuleFramework.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -126,6 +132,7 @@
 		6003F593195388D20070C39A /* Example for TMRelearnModule */ = {
 			isa = PBXGroup;
 			children = (
+				CB9DE7E222F995D200B44147 /* DataSource.json */,
 				6003F59C195388D20070C39A /* TMAppDelegate.h */,
 				6003F59D195388D20070C39A /* TMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,7 +192,6 @@
 				CA8420E8818B41719C62FF3C /* Pods-TMRelearnModule_Example.debug.xcconfig */,
 				3FDF2AB15531CFFECC92D988 /* Pods-TMRelearnModule_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +255,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				CB9DE7E322F995D200B44147 /* DataSource.json in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -320,6 +328,7 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SGTools/SGTools.framework",
 				"${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework",
 				"${BUILT_PRODUCTS_DIR}/TMRelearnModule/TMRelearnModule.framework",
 				"${BUILT_PRODUCTS_DIR}/YJExtensions/YJExtensions.framework",
@@ -332,6 +341,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGTools.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFHpple.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMRelearnModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJExtensions.framework",

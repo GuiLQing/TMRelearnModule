@@ -13,10 +13,14 @@
 		CB3CAFC622F84AF40020EF8B /* TMRelearnWordsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3CAFBE22F84AF40020EF8B /* TMRelearnWordsListViewController.m */; };
 		CB3CAFC722F84AF40020EF8B /* TMRelearnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3CAFBF22F84AF40020EF8B /* TMRelearnManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3CAFC822F84AF40020EF8B /* TMRelearnKnowledgeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3CAFC022F84AF40020EF8B /* TMRelearnKnowledgeModel.h */; };
-		CB3CAFC922F84AF40020EF8B /* TMRelearnWordsListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3CAFC122F84AF40020EF8B /* TMRelearnWordsListViewController.h */; };
+		CB3CAFC922F84AF40020EF8B /* TMRelearnWordsListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3CAFC122F84AF40020EF8B /* TMRelearnWordsListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3CAFCA22F84AF40020EF8B /* TMRelearnRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3CAFC222F84AF40020EF8B /* TMRelearnRequest.h */; };
 		CB3CAFCB22F84AF40020EF8B /* TMRelearnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3CAFC322F84AF40020EF8B /* TMRelearnManager.m */; };
 		CB3CAFCC22F84AF40020EF8B /* TMRelearnKnowledgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3CAFC422F84AF40020EF8B /* TMRelearnKnowledgeModel.m */; };
+		CB9DE7EF22F99A2E00B44147 /* TMRelearnWordsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9DE7ED22F99A2E00B44147 /* TMRelearnWordsDetailViewController.h */; };
+		CB9DE7F022F99A2E00B44147 /* TMRelearnWordsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DE7EE22F99A2E00B44147 /* TMRelearnWordsDetailViewController.m */; };
+		CB9DE7F322F99A4B00B44147 /* TMRelearnWordsDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9DE7F122F99A4B00B44147 /* TMRelearnWordsDetailCell.h */; };
+		CB9DE7F422F99A4B00B44147 /* TMRelearnWordsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DE7F222F99A4B00B44147 /* TMRelearnWordsDetailCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,11 @@
 		CB3CAFC222F84AF40020EF8B /* TMRelearnRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMRelearnRequest.h; sourceTree = "<group>"; };
 		CB3CAFC322F84AF40020EF8B /* TMRelearnManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRelearnManager.m; sourceTree = "<group>"; };
 		CB3CAFC422F84AF40020EF8B /* TMRelearnKnowledgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRelearnKnowledgeModel.m; sourceTree = "<group>"; };
+		CB9DE7E822F997C000B44147 /* TMRelearnMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnMacros.h; sourceTree = "<group>"; };
+		CB9DE7ED22F99A2E00B44147 /* TMRelearnWordsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnWordsDetailViewController.h; sourceTree = "<group>"; };
+		CB9DE7EE22F99A2E00B44147 /* TMRelearnWordsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnWordsDetailViewController.m; sourceTree = "<group>"; };
+		CB9DE7F122F99A4B00B44147 /* TMRelearnWordsDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnWordsDetailCell.h; sourceTree = "<group>"; };
+		CB9DE7F222F99A4B00B44147 /* TMRelearnWordsDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnWordsDetailCell.m; sourceTree = "<group>"; };
 		F1D650C933980B564F44FD37 /* Pods-TMRelearnModuleFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMRelearnModuleFramework.debug.xcconfig"; path = "Target Support Files/Pods-TMRelearnModuleFramework/Pods-TMRelearnModuleFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +98,9 @@
 			children = (
 				CB3CAFBC22F84AF40020EF8B /* TMRelearnModule */,
 				CB3CAFB422F84AE70020EF8B /* TMRelearnModuleFramework.h */,
+				CB9DE7E822F997C000B44147 /* TMRelearnMacros.h */,
+				CB3CAFBF22F84AF40020EF8B /* TMRelearnManager.h */,
+				CB3CAFC322F84AF40020EF8B /* TMRelearnManager.m */,
 				CB3CAFB522F84AE70020EF8B /* Info.plist */,
 			);
 			path = TMRelearnModuleFramework;
@@ -97,16 +109,50 @@
 		CB3CAFBC22F84AF40020EF8B /* TMRelearnModule */ = {
 			isa = PBXGroup;
 			children = (
-				CB3CAFC022F84AF40020EF8B /* TMRelearnKnowledgeModel.h */,
-				CB3CAFC422F84AF40020EF8B /* TMRelearnKnowledgeModel.m */,
-				CB3CAFBF22F84AF40020EF8B /* TMRelearnManager.h */,
-				CB3CAFC322F84AF40020EF8B /* TMRelearnManager.m */,
-				CB3CAFC222F84AF40020EF8B /* TMRelearnRequest.h */,
-				CB3CAFBD22F84AF40020EF8B /* TMRelearnRequest.m */,
+				CB9DE7EC22F99A1000B44147 /* TMRelearnWordsDetail */,
+				CB9DE7EB22F99A0000B44147 /* TMRelearnModel */,
+				CB9DE7EA22F999D800B44147 /* TMRelearnRequest */,
+				CB9DE7E922F999BD00B44147 /* TMRelearnList */,
+			);
+			path = TMRelearnModule;
+			sourceTree = "<group>";
+		};
+		CB9DE7E922F999BD00B44147 /* TMRelearnList */ = {
+			isa = PBXGroup;
+			children = (
 				CB3CAFC122F84AF40020EF8B /* TMRelearnWordsListViewController.h */,
 				CB3CAFBE22F84AF40020EF8B /* TMRelearnWordsListViewController.m */,
 			);
-			path = TMRelearnModule;
+			path = TMRelearnList;
+			sourceTree = "<group>";
+		};
+		CB9DE7EA22F999D800B44147 /* TMRelearnRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CAFC222F84AF40020EF8B /* TMRelearnRequest.h */,
+				CB3CAFBD22F84AF40020EF8B /* TMRelearnRequest.m */,
+			);
+			path = TMRelearnRequest;
+			sourceTree = "<group>";
+		};
+		CB9DE7EB22F99A0000B44147 /* TMRelearnModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CAFC022F84AF40020EF8B /* TMRelearnKnowledgeModel.h */,
+				CB3CAFC422F84AF40020EF8B /* TMRelearnKnowledgeModel.m */,
+			);
+			path = TMRelearnModel;
+			sourceTree = "<group>";
+		};
+		CB9DE7EC22F99A1000B44147 /* TMRelearnWordsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CB9DE7ED22F99A2E00B44147 /* TMRelearnWordsDetailViewController.h */,
+				CB9DE7EE22F99A2E00B44147 /* TMRelearnWordsDetailViewController.m */,
+				CB9DE7F122F99A4B00B44147 /* TMRelearnWordsDetailCell.h */,
+				CB9DE7F222F99A4B00B44147 /* TMRelearnWordsDetailCell.m */,
+			);
+			path = TMRelearnWordsDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3CAFB622F84AE70020EF8B /* TMRelearnModuleFramework.h in Headers */,
+				CB9DE7F322F99A4B00B44147 /* TMRelearnWordsDetailCell.h in Headers */,
+				CB9DE7EF22F99A2E00B44147 /* TMRelearnWordsDetailViewController.h in Headers */,
 				CB3CAFC722F84AF40020EF8B /* TMRelearnManager.h in Headers */,
 				CB3CAFC822F84AF40020EF8B /* TMRelearnKnowledgeModel.h in Headers */,
 				CB3CAFC922F84AF40020EF8B /* TMRelearnWordsListViewController.h in Headers */,
@@ -218,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3CAFCB22F84AF40020EF8B /* TMRelearnManager.m in Sources */,
+				CB9DE7F422F99A4B00B44147 /* TMRelearnWordsDetailCell.m in Sources */,
 				CB3CAFC522F84AF40020EF8B /* TMRelearnRequest.m in Sources */,
+				CB9DE7F022F99A2E00B44147 /* TMRelearnWordsDetailViewController.m in Sources */,
 				CB3CAFC622F84AF40020EF8B /* TMRelearnWordsListViewController.m in Sources */,
 				CB3CAFCC22F84AF40020EF8B /* TMRelearnKnowledgeModel.m in Sources */,
 			);
