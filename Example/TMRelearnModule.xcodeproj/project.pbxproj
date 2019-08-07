@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B00CAA7322F9D0DE00E24D96 /* TMRelearnModuleFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B00CAA7222F9D0DE00E24D96 /* TMRelearnModuleFramework.bundle */; };
 		CB9DE7E322F995D200B44147 /* DataSource.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9DE7E222F995D200B44147 /* DataSource.json */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00CAA7222F9D0DE00E24D96 /* TMRelearnModuleFramework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TMRelearnModuleFramework.bundle; sourceTree = "<group>"; };
 		C3B34E90D38E1D2C43BB1AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA8420E8818B41719C62FF3C /* Pods-TMRelearnModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMRelearnModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TMRelearnModule_Example/Pods-TMRelearnModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB9DE7E222F995D200B44147 /* DataSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataSource.json; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for TMRelearnModule */ = {
 			isa = PBXGroup;
 			children = (
+				B00CAA7222F9D0DE00E24D96 /* TMRelearnModuleFramework.bundle */,
 				CB9DE7E222F995D200B44147 /* DataSource.json */,
 				6003F59C195388D20070C39A /* TMAppDelegate.h */,
 				6003F59D195388D20070C39A /* TMAppDelegate.m */,
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				B00CAA7322F9D0DE00E24D96 /* TMRelearnModuleFramework.bundle in Resources */,
 				CB9DE7E322F995D200B44147 /* DataSource.json in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
