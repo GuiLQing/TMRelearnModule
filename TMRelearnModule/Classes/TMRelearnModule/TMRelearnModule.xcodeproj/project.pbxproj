@@ -24,6 +24,23 @@
 		B00664C122FB2FC500C56DD7 /* TMRelearnBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00664C022FB2FC500C56DD7 /* TMRelearnBaseViewController.m */; };
 		B00664C422FB3AC500C56DD7 /* UIImage+TMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B00664C322FB3AC500C56DD7 /* UIImage+TMResource.m */; };
 		BCC5BB4AA8D4C9554F04106C /* Pods_TMRelearnModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7F920B5E606B263109671E /* Pods_TMRelearnModule.framework */; };
+		CBBFB32622FBA4DB00325246 /* TMRelearnModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBBFB32522FBA4DB00325246 /* TMRelearnModule.bundle */; };
+		CBBFB32922FBA91E00325246 /* TMRelearnWordsListFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB32822FBA91E00325246 /* TMRelearnWordsListFooterView.m */; };
+		CBBFB32D22FBB00900325246 /* TMRelearnSpeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB32C22FBB00900325246 /* TMRelearnSpeakViewController.m */; };
+		CBBFB33022FBB16300325246 /* TMRelearnSpeakCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB32F22FBB16300325246 /* TMRelearnSpeakCell.m */; };
+		CBBFB33322FBC5F900325246 /* TMRelearnSpeakManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB33222FBC5F900325246 /* TMRelearnSpeakManager.m */; };
+		CBBFB33622FBCC2500325246 /* TMRelearnSpeakFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB33522FBCC2500325246 /* TMRelearnSpeakFooterView.m */; };
+		CBBFB33922FBE2A700325246 /* TMRelearnDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB33822FBE2A700325246 /* TMRelearnDisplayLink.m */; };
+		CBBFB33C22FBF45500325246 /* TMRelearnSpeakTipsAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB33B22FBF45500325246 /* TMRelearnSpeakTipsAlertView.m */; };
+		CBBFB33F22FBFCB000325246 /* TMRelearnAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB33E22FBFCB000325246 /* TMRelearnAlertView.m */; };
+		CBBFB34422FC106C00325246 /* TMRelearnListenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB34322FC106C00325246 /* TMRelearnListenViewController.m */; };
+		CBBFB34722FC13B700325246 /* TMRelearnListenFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB34622FC13B700325246 /* TMRelearnListenFooterView.m */; };
+		CBBFB34A22FC15F200325246 /* TMRelearnListenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB34922FC15F200325246 /* TMRelearnListenCell.m */; };
+		CBBFB34D22FC171300325246 /* TMRelearnListenCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB34C22FC171300325246 /* TMRelearnListenCountDownView.m */; };
+		CBBFB35A22FC3C6300325246 /* TMRelearnResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB35922FC3C6300325246 /* TMRelearnResultViewController.m */; };
+		CBBFB35D22FC422800325246 /* TMRelearnResultDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB35C22FC422800325246 /* TMRelearnResultDetailViewController.m */; };
+		CBBFB36022FC426000325246 /* TMRelearnResultDetailFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB35F22FC426000325246 /* TMRelearnResultDetailFooterView.m */; };
+		CBBFB36322FC42AD00325246 /* TMRelearnResultDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFB36222FC42AD00325246 /* TMRelearnResultDetailCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +76,39 @@
 		B00664C022FB2FC500C56DD7 /* TMRelearnBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnBaseViewController.m; sourceTree = "<group>"; };
 		B00664C222FB3AC500C56DD7 /* UIImage+TMResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TMResource.h"; sourceTree = "<group>"; };
 		B00664C322FB3AC500C56DD7 /* UIImage+TMResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TMResource.m"; sourceTree = "<group>"; };
+		CBBFB32522FBA4DB00325246 /* TMRelearnModule.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TMRelearnModule.bundle; sourceTree = "<group>"; };
+		CBBFB32722FBA91E00325246 /* TMRelearnWordsListFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnWordsListFooterView.h; sourceTree = "<group>"; };
+		CBBFB32822FBA91E00325246 /* TMRelearnWordsListFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnWordsListFooterView.m; sourceTree = "<group>"; };
+		CBBFB32B22FBB00900325246 /* TMRelearnSpeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnSpeakViewController.h; sourceTree = "<group>"; };
+		CBBFB32C22FBB00900325246 /* TMRelearnSpeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnSpeakViewController.m; sourceTree = "<group>"; };
+		CBBFB32E22FBB16300325246 /* TMRelearnSpeakCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnSpeakCell.h; sourceTree = "<group>"; };
+		CBBFB32F22FBB16300325246 /* TMRelearnSpeakCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnSpeakCell.m; sourceTree = "<group>"; };
+		CBBFB33122FBC5F900325246 /* TMRelearnSpeakManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnSpeakManager.h; sourceTree = "<group>"; };
+		CBBFB33222FBC5F900325246 /* TMRelearnSpeakManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnSpeakManager.m; sourceTree = "<group>"; };
+		CBBFB33422FBCC2500325246 /* TMRelearnSpeakFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnSpeakFooterView.h; sourceTree = "<group>"; };
+		CBBFB33522FBCC2500325246 /* TMRelearnSpeakFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnSpeakFooterView.m; sourceTree = "<group>"; };
+		CBBFB33722FBE2A700325246 /* TMRelearnDisplayLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnDisplayLink.h; sourceTree = "<group>"; };
+		CBBFB33822FBE2A700325246 /* TMRelearnDisplayLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnDisplayLink.m; sourceTree = "<group>"; };
+		CBBFB33A22FBF45500325246 /* TMRelearnSpeakTipsAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnSpeakTipsAlertView.h; sourceTree = "<group>"; };
+		CBBFB33B22FBF45500325246 /* TMRelearnSpeakTipsAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnSpeakTipsAlertView.m; sourceTree = "<group>"; };
+		CBBFB33D22FBFCB000325246 /* TMRelearnAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnAlertView.h; sourceTree = "<group>"; };
+		CBBFB33E22FBFCB000325246 /* TMRelearnAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnAlertView.m; sourceTree = "<group>"; };
+		CBBFB34222FC106C00325246 /* TMRelearnListenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnListenViewController.h; sourceTree = "<group>"; };
+		CBBFB34322FC106C00325246 /* TMRelearnListenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnListenViewController.m; sourceTree = "<group>"; };
+		CBBFB34522FC13B700325246 /* TMRelearnListenFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnListenFooterView.h; sourceTree = "<group>"; };
+		CBBFB34622FC13B700325246 /* TMRelearnListenFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnListenFooterView.m; sourceTree = "<group>"; };
+		CBBFB34822FC15F200325246 /* TMRelearnListenCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnListenCell.h; sourceTree = "<group>"; };
+		CBBFB34922FC15F200325246 /* TMRelearnListenCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnListenCell.m; sourceTree = "<group>"; };
+		CBBFB34B22FC171300325246 /* TMRelearnListenCountDownView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnListenCountDownView.h; sourceTree = "<group>"; };
+		CBBFB34C22FC171300325246 /* TMRelearnListenCountDownView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnListenCountDownView.m; sourceTree = "<group>"; };
+		CBBFB35822FC3C6300325246 /* TMRelearnResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnResultViewController.h; sourceTree = "<group>"; };
+		CBBFB35922FC3C6300325246 /* TMRelearnResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnResultViewController.m; sourceTree = "<group>"; };
+		CBBFB35B22FC422800325246 /* TMRelearnResultDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnResultDetailViewController.h; sourceTree = "<group>"; };
+		CBBFB35C22FC422800325246 /* TMRelearnResultDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnResultDetailViewController.m; sourceTree = "<group>"; };
+		CBBFB35E22FC426000325246 /* TMRelearnResultDetailFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnResultDetailFooterView.h; sourceTree = "<group>"; };
+		CBBFB35F22FC426000325246 /* TMRelearnResultDetailFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnResultDetailFooterView.m; sourceTree = "<group>"; };
+		CBBFB36122FC42AD00325246 /* TMRelearnResultDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRelearnResultDetailCell.h; sourceTree = "<group>"; };
+		CBBFB36222FC42AD00325246 /* TMRelearnResultDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRelearnResultDetailCell.m; sourceTree = "<group>"; };
 		E26B3804C0C4D780A2651384 /* Pods-TMRelearnModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMRelearnModule.debug.xcconfig"; path = "Target Support Files/Pods-TMRelearnModule/Pods-TMRelearnModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +154,7 @@
 		B006646C22FB249600C56DD7 /* TMRelearnModule */ = {
 			isa = PBXGroup;
 			children = (
+				CBBFB32522FBA4DB00325246 /* TMRelearnModule.bundle */,
 				B00664A222FB24F000C56DD7 /* TMRelearnModule */,
 				B006646D22FB249600C56DD7 /* AppDelegate.h */,
 				B006646E22FB249600C56DD7 /* AppDelegate.m */,
@@ -122,6 +173,8 @@
 		B00664A222FB24F000C56DD7 /* TMRelearnModule */ = {
 			isa = PBXGroup;
 			children = (
+				CBBFB34122FC104300325246 /* TMRelearnListen */,
+				CBBFB32A22FBAFDF00325246 /* TMRelearnSpeak */,
 				B00664A322FB24F000C56DD7 /* TMRelearnModel */,
 				B00664A622FB24F000C56DD7 /* TMRelearnWordsDetail */,
 				B00664AD22FB24F100C56DD7 /* TMRelearnRequest */,
@@ -173,8 +226,62 @@
 			children = (
 				B00664B222FB24F100C56DD7 /* TMRelearnWordsListViewController.h */,
 				B00664B122FB24F100C56DD7 /* TMRelearnWordsListViewController.m */,
+				CBBFB32722FBA91E00325246 /* TMRelearnWordsListFooterView.h */,
+				CBBFB32822FBA91E00325246 /* TMRelearnWordsListFooterView.m */,
 			);
 			path = TMRelearnList;
+			sourceTree = "<group>";
+		};
+		CBBFB32A22FBAFDF00325246 /* TMRelearnSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				CBBFB32B22FBB00900325246 /* TMRelearnSpeakViewController.h */,
+				CBBFB32C22FBB00900325246 /* TMRelearnSpeakViewController.m */,
+				CBBFB33122FBC5F900325246 /* TMRelearnSpeakManager.h */,
+				CBBFB33222FBC5F900325246 /* TMRelearnSpeakManager.m */,
+				CBBFB33722FBE2A700325246 /* TMRelearnDisplayLink.h */,
+				CBBFB33822FBE2A700325246 /* TMRelearnDisplayLink.m */,
+				CBBFB32E22FBB16300325246 /* TMRelearnSpeakCell.h */,
+				CBBFB32F22FBB16300325246 /* TMRelearnSpeakCell.m */,
+				CBBFB33422FBCC2500325246 /* TMRelearnSpeakFooterView.h */,
+				CBBFB33522FBCC2500325246 /* TMRelearnSpeakFooterView.m */,
+				CBBFB33A22FBF45500325246 /* TMRelearnSpeakTipsAlertView.h */,
+				CBBFB33B22FBF45500325246 /* TMRelearnSpeakTipsAlertView.m */,
+				CBBFB33D22FBFCB000325246 /* TMRelearnAlertView.h */,
+				CBBFB33E22FBFCB000325246 /* TMRelearnAlertView.m */,
+			);
+			path = TMRelearnSpeak;
+			sourceTree = "<group>";
+		};
+		CBBFB34122FC104300325246 /* TMRelearnListen */ = {
+			isa = PBXGroup;
+			children = (
+				CBBFB35722FC3B9800325246 /* TMRelearnResult */,
+				CBBFB34222FC106C00325246 /* TMRelearnListenViewController.h */,
+				CBBFB34322FC106C00325246 /* TMRelearnListenViewController.m */,
+				CBBFB34522FC13B700325246 /* TMRelearnListenFooterView.h */,
+				CBBFB34622FC13B700325246 /* TMRelearnListenFooterView.m */,
+				CBBFB34822FC15F200325246 /* TMRelearnListenCell.h */,
+				CBBFB34922FC15F200325246 /* TMRelearnListenCell.m */,
+				CBBFB34B22FC171300325246 /* TMRelearnListenCountDownView.h */,
+				CBBFB34C22FC171300325246 /* TMRelearnListenCountDownView.m */,
+			);
+			path = TMRelearnListen;
+			sourceTree = "<group>";
+		};
+		CBBFB35722FC3B9800325246 /* TMRelearnResult */ = {
+			isa = PBXGroup;
+			children = (
+				CBBFB35822FC3C6300325246 /* TMRelearnResultViewController.h */,
+				CBBFB35922FC3C6300325246 /* TMRelearnResultViewController.m */,
+				CBBFB35B22FC422800325246 /* TMRelearnResultDetailViewController.h */,
+				CBBFB35C22FC422800325246 /* TMRelearnResultDetailViewController.m */,
+				CBBFB35E22FC426000325246 /* TMRelearnResultDetailFooterView.h */,
+				CBBFB35F22FC426000325246 /* TMRelearnResultDetailFooterView.m */,
+				CBBFB36122FC42AD00325246 /* TMRelearnResultDetailCell.h */,
+				CBBFB36222FC42AD00325246 /* TMRelearnResultDetailCell.m */,
+			);
+			path = TMRelearnResult;
 			sourceTree = "<group>";
 		};
 		E9ED5905C6AD740B0FB6C64E /* Frameworks */ = {
@@ -248,6 +355,7 @@
 				B006647722FB249800C56DD7 /* Assets.xcassets in Resources */,
 				B00664BB22FB24FA00C56DD7 /* DataSource.json in Resources */,
 				B006647522FB249600C56DD7 /* Main.storyboard in Resources */,
+				CBBFB32622FBA4DB00325246 /* TMRelearnModule.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,17 +408,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBFB33F22FBFCB000325246 /* TMRelearnAlertView.m in Sources */,
+				CBBFB32922FBA91E00325246 /* TMRelearnWordsListFooterView.m in Sources */,
+				CBBFB36322FC42AD00325246 /* TMRelearnResultDetailCell.m in Sources */,
+				CBBFB35A22FC3C6300325246 /* TMRelearnResultViewController.m in Sources */,
+				CBBFB33C22FBF45500325246 /* TMRelearnSpeakTipsAlertView.m in Sources */,
 				B00664C422FB3AC500C56DD7 /* UIImage+TMResource.m in Sources */,
 				B00664B822FB24F100C56DD7 /* TMRelearnRequest.m in Sources */,
 				B00664B922FB24F100C56DD7 /* TMRelearnWordsListViewController.m in Sources */,
 				B00664C122FB2FC500C56DD7 /* TMRelearnBaseViewController.m in Sources */,
+				CBBFB34422FC106C00325246 /* TMRelearnListenViewController.m in Sources */,
 				B00664B622FB24F100C56DD7 /* TMRelearnWordsDetailHeaderView.m in Sources */,
+				CBBFB32D22FBB00900325246 /* TMRelearnSpeakViewController.m in Sources */,
 				B006647222FB249600C56DD7 /* ViewController.m in Sources */,
+				CBBFB34722FC13B700325246 /* TMRelearnListenFooterView.m in Sources */,
 				B00664BE22FB25A600C56DD7 /* TMRelearnManager.m in Sources */,
 				B006647D22FB249800C56DD7 /* main.m in Sources */,
+				CBBFB36022FC426000325246 /* TMRelearnResultDetailFooterView.m in Sources */,
 				B006646F22FB249600C56DD7 /* AppDelegate.m in Sources */,
+				CBBFB33322FBC5F900325246 /* TMRelearnSpeakManager.m in Sources */,
+				CBBFB33022FBB16300325246 /* TMRelearnSpeakCell.m in Sources */,
 				B00664B422FB24F100C56DD7 /* TMRelearnKnowledgeModel.m in Sources */,
+				CBBFB35D22FC422800325246 /* TMRelearnResultDetailViewController.m in Sources */,
 				B00664B522FB24F100C56DD7 /* TMRelearnWordsDetailCell.m in Sources */,
+				CBBFB34A22FC15F200325246 /* TMRelearnListenCell.m in Sources */,
+				CBBFB33922FBE2A700325246 /* TMRelearnDisplayLink.m in Sources */,
+				CBBFB33622FBCC2500325246 /* TMRelearnSpeakFooterView.m in Sources */,
+				CBBFB34D22FC171300325246 /* TMRelearnListenCountDownView.m in Sources */,
 				B00664B722FB24F100C56DD7 /* TMRelearnWordsDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,8 +579,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K86567WA9U;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				INFOPLIST_FILE = TMRelearnModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,8 +598,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K86567WA9U;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				INFOPLIST_FILE = TMRelearnModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

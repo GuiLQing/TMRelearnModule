@@ -29,12 +29,12 @@
 
 + (UIImage *)tm_imageNamed:(NSString *)name {
     NSString *namePath = name;
-    return [UIImage imageNamed:[NSBundle ap_bundlePathWithName:namePath]];
+    return [UIImage imageNamed:[NSBundle tm_bundlePathWithName:namePath]];
 }
 
 + (UIImage *)tm_imagePathName:(NSString *)name {
     NSString *namePath = name;
-    return [UIImage imageWithContentsOfFile:[NSBundle ap_bundlePathWithName:namePath]];
+    return [UIImage imageWithContentsOfFile:[NSBundle tm_bundlePathWithName:namePath]];
 }
 
 @end

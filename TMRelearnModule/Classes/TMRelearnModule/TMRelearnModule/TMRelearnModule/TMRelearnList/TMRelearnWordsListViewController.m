@@ -14,6 +14,11 @@
 #import "TMRelearnRequest.h"
 #import "TMRelearnWordsDetailViewController.h"
 #import "UIImage+TMResource.h"
+#import "TMRelearnWordsListFooterView.h"
+#import "TMRelearnSpeakViewController.h"
+#import "TMRelearnManager.h"
+#import <LGAlertHUD/LGAlertHUD.h>
+#import "TMRelearnListenViewController.h"
 
 @interface TMRelearnWordsListCell : UITableViewCell
 
@@ -73,7 +78,7 @@
 
 static NSString * const TMRelearnWordsListCellIdentifier = @"TMRelearnWordsListCellIdentifier";
 
-@interface TMRelearnWordsListViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface TMRelearnWordsListViewController () <UITableViewDataSource, UITableViewDelegate, TMRelearnWordsListFooterViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -87,14 +92,34 @@ static NSString * const TMRelearnWordsListCellIdentifier = @"TMRelearnWordsListC
 
 @implementation TMRelearnWordsListViewController
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.audioPlayer invalidate];
+    [SGSpeechDefaultManager cancelSpeech];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"再学习单词";
     
+    TMRelearnWordsListFooterView *footerView = TMRelearnWordsListFooterView.alloc.init;
+    footerView.delegate = self;
+    [self.view addSubview:footerView];
+    [footerView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.bottom.right.equalTo(self.view);
+        make.height.mas_equalTo(50.0f);
+    }];
+    
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.top.left.right.equalTo(self.view);
+        make.bottom.equalTo(footerView.mas_top);
     }];
+    
+    [self.view bringSubviewToFront:footerView];
+    footerView.layer.shadowColor = [UIColor colorWithRed:47/255.0 green:126/255.0 blue:229/255.0 alpha:0.3].CGColor;
+    footerView.layer.shadowOffset = CGSizeMake(0, -2);
+    footerView.layer.shadowOpacity = 1;
 }
 
 - (void)setKnowledgeDataSource:(NSMutableArray<TMRelearnKnowledgeModel *> *)knowledgeDataSource {
@@ -118,10 +143,52 @@ static NSString * const TMRelearnWordsListCellIdentifier = @"TMRelearnWordsListC
             for (TMRelearnKnowledgeModel *model in knowledges) {
                 [self.dataSource setObject:model forKey:model.cwName];
             }
+            [self updateDataSource];
             [self.tableView reloadData];
         } failure:^(NSError * _Nonnull error) {
             [self setLoadingViewShow:NO];
         }];
+    }
+}
+
+- (void)updateDataSource {
+    NSMutableArray *array = [NSMutableArray array];
+    for (TMRelearnKnowledgeModel *model in self.knowledgeDataSource) {
+        if ([self.dataSource.allKeys containsObject:model.cwName]) {
+            [array addObject:self.dataSource[model.cwName]];
+        } else {
+            [array addObject:model];
+        }
+    }
+    self.knowledgeDataSource = array;
+}
+
+#pragma mark - TMRelearnWordsListFooterViewDelegate
+
+- (void)footerItemDidClickedAtIndex:(TMRelearnWordsListFooterItemType)index {
+    switch (index) {
+            case TMRelearnWordsListFooterItemTypeSpeak: {
+                TMRelearnSpeakViewController *speakVC = [[TMRelearnSpeakViewController alloc] init];
+                speakVC.knowledgeDataSource = self.knowledgeDataSource;
+                [self.navigationController pushViewController:speakVC animated:YES];
+            }
+            break;
+            case TMRelearnWordsListFooterItemTypeListen: {
+                TMRelearnListenViewController *listenVC = [[TMRelearnListenViewController alloc] init];
+                listenVC.knowledgeDataSource = self.knowledgeDataSource;
+                [self.navigationController pushViewController:listenVC animated:YES];
+            }
+            break;
+            case TMRelearnWordsListFooterItemTypeTest: {
+                NSMutableArray *array = [NSMutableArray array];
+                for (TMRelearnKnowledgeModel *model in self.knowledgeDataSource) {
+                    [array addObject:model.mj_JSONObject];
+                }
+                if (TMRelearnManager.defaultManager.pushToRelearnExercisesVC) {
+                    TMRelearnManager.defaultManager.pushToRelearnExercisesVC(self.navigationController, array);
+                }
+            }
+            break;
     }
 }
 
@@ -144,7 +211,7 @@ static NSString * const TMRelearnWordsListCellIdentifier = @"TMRelearnWordsListC
         __strong typeof(weakSelf) strongSelf = weakSelf;
         TMRelearnKnowledgeModel *model = strongSelf.dataSource.allValues[indexPath.row];
         if (!model.cxCollection || model.cxCollection.count == 0) {
-            NSLog(@"弹框，暂无详细释义");
+            [LGAlert showStatus:@"暂无详细释义!"];
             return ;
         }
         TMRelearnWordsDetailViewController *detailVC = [[TMRelearnWordsDetailViewController alloc] init];
@@ -190,6 +257,8 @@ static NSString * const TMRelearnWordsListCellIdentifier = @"TMRelearnWordsListC
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     self.currentIndexPath = indexPath;
     [tableView reloadData];
+    
+    [self playAudioWithUrlString:self.dataSource.allValues[indexPath.row].usPVoice englishText:self.dataSource.allValues[indexPath.row].cwName];
 }
 
 - (void)playAudioWithUrlString:(NSString *)urlString englishText:(NSString *)englishText {

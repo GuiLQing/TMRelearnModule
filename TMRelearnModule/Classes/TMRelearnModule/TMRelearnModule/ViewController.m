@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TMRelearnManager.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface ViewController ()
 

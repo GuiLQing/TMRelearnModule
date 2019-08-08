@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <YJSpeechMark.h>
+#import <YJNetManager/YJNetMonitoring.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[YJNetMonitoring shareMonitoring] startNetMonitoring];
+    [[YJSpeechManager defaultManager] initEngine];
     
     self.window = [UIWindow.alloc initWithFrame:UIScreen.mainScreen.bounds];
     self.window.rootViewController = [UINavigationController.alloc initWithRootViewController:[[NSClassFromString(@"ViewController") alloc] init]];

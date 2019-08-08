@@ -31,12 +31,12 @@
     if (self) {
         self.imageView = [[UIImageView alloc] init];
         self.imageView.frame = (CGRect){CGPointZero, CGSizeMake(20.0f, 20.0f)};
-        self.imageView.image = [UIImage tm_imageNamed:@"ap_words_icon_voice_play_3"];
+        self.imageView.image = [UIImage tm_imageNamed:@"tm_words_icon_voice_play_3"];
         self.imageView.animationImages = @[
-                                           [UIImage tm_imageNamed:@"ap_words_icon_voice_play_1"],
-                                           [UIImage tm_imageNamed:@"ap_words_icon_voice_play_2"],
-                                           [UIImage tm_imageNamed:@"ap_words_icon_voice_play_3"],
-                                           [UIImage tm_imageNamed:@"ap_words_icon_voice_play_4"]
+                                           [UIImage tm_imageNamed:@"tm_words_icon_voice_play_1"],
+                                           [UIImage tm_imageNamed:@"tm_words_icon_voice_play_2"],
+                                           [UIImage tm_imageNamed:@"tm_words_icon_voice_play_3"],
+                                           [UIImage tm_imageNamed:@"tm_words_icon_voice_play_4"]
                                            ];
         self.imageView.animationDuration = 0.5;
         [self addSubview:self.imageView];
@@ -55,7 +55,7 @@
         self.imageView.center = self.center;
         self.textLabel.center = self.center;
         self.imageView.frame = (CGRect){CGPointMake(0, CGRectGetMinY(self.imageView.frame)), self.imageView.frame.size};
-        self.textLabel.frame = (CGRect){CGPointMake(0, CGRectGetMinY(self.textLabel.frame)), self.textLabel.frame.size};
+        self.textLabel.frame = (CGRect){CGPointMake(CGRectGetMaxX(self.imageView.frame), CGRectGetMinY(self.textLabel.frame)), self.textLabel.frame.size};
         
         UITapGestureRecognizer *tapGR = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
         [self addGestureRecognizer:tapGR];
@@ -127,7 +127,6 @@
     NSString *wordsTypeText = @"";
     for (TMRelearnKnowledgeParaphraseModel *paraphraseModel in self.wordsModel.cxCollection) {
         if (TM_IsStrEmpty(wordsTypeText)) wordsTypeText = paraphraseModel.cxEnglish;
-        //        [contentText appendString:self.htmlStringToAttributedString(paraphraseModel.cxEnglish).string];
         for (TMRelearnKnowledgeDetailParaphraseModel *detailModel in paraphraseModel.meanCollection) {
             [contentText appendString:self.htmlStringToAttributedString(detailModel.chineseMeaning).string];
         }

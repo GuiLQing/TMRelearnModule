@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)pushToRelearnListVCBy:(UINavigationController *)navigationController dataSource:(id)dataSource;
 
+@property (nonatomic, copy) void (^pushToRelearnExercisesVC)(UINavigationController *navigationController, id knowledge);
+
 @end
 
 NS_ASSUME_NONNULL_END

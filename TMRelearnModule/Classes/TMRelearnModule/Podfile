@@ -16,5 +16,11 @@ pod 'AFNetworking'
   pod 'SGTools/SGSpeechSynthesizer'
   pod 'SGTools/SGVocabularyDictation'
   pod 'MarqueeLabel', '3.2.0'
+  pod 'ReactiveObjC'
+  pod 'YJTaskMark'
+  pod 'SGTools/SGTriangleView'
+  pod 'SGTools/SGVocabularyDictation'
+  pod 'SGTools/SGGradientProgress'
+  pod 'PSGChainedMode'
 
 end

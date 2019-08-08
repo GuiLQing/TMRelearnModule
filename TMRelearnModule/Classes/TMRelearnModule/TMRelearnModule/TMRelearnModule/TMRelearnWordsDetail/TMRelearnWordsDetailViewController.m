@@ -187,6 +187,7 @@ static NSString * const TMRelearnWordsDetailCellIdentifier = @"TMRelearnWordsDet
         _tableView.backgroundColor = UIColor.whiteColor;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.scrollsToTop = YES;
+        _tableView.backgroundColor = TM_HexColor(0xf5f7f9);
         if (@available(iOS 11.0, *)) {
             self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
             self.tableView.estimatedRowHeight = 0;

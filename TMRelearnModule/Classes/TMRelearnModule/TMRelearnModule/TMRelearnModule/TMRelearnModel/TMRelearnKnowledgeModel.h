@@ -11,6 +11,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, TMWordsStatus) {
+    TMWordsStatusNormal,
+    TMWordsStatusPassed,
+    TMWordsStatusNotPass,
+};
+
 @interface TMRelearnKnowledgeModel : NSObject
 
 /** 知识点 编码 */
@@ -29,6 +35,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *cxSPmean;
 /** 各个解析 */
 @property (nonatomic, strong) NSArray *cxCollection;
+
+@property (nonatomic, assign) TMWordsStatus status;
+
+@property (nonatomic, assign) NSInteger score;
+
+@property (nonatomic, copy) NSString *stuAnswer;
 
 @end
 

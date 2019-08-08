@@ -51,10 +51,10 @@
     [self.voiceButton setImage:[UIImage tm_imageNamed:@"tm_words_icon_voice_play_4"] forState:UIControlStateNormal];
     [self.voiceButton setImage:[UIImage tm_imageNamed:@"tm_words_icon_voice_play_4"] forState:UIControlStateHighlighted];
     self.voiceButton.imageView.animationImages = @[
-                                                   [UIImage tm_imageNamed:@"ap_words_icon_voice_play_1"],
-                                                   [UIImage tm_imageNamed:@"ap_words_icon_voice_play_2"],
-                                                   [UIImage tm_imageNamed:@"ap_words_icon_voice_play_3"],
-                                                   [UIImage tm_imageNamed:@"ap_words_icon_voice_play_4"]
+                                                   [UIImage tm_imageNamed:@"tm_words_icon_voice_play_1"],
+                                                   [UIImage tm_imageNamed:@"tm_words_icon_voice_play_2"],
+                                                   [UIImage tm_imageNamed:@"tm_words_icon_voice_play_3"],
+                                                   [UIImage tm_imageNamed:@"tm_words_icon_voice_play_4"]
                                                    ];
     self.voiceButton.imageView.animationDuration = 0.5;
     [self.voiceButton addTarget:self action:@selector(voiceAction:) forControlEvents:UIControlEventTouchUpInside];
