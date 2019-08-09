@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gui950823@126.com/TMRelearnModule'
+  s.homepage         = 'https://github.com/GuiLQing/TMRelearnModule.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gui950823@126.com' => 'gui950823@126.com' }
-  s.source           = { :git => 'https://github.com/gui950823@126.com/TMRelearnModule.git', :tag => s.version.to_s }
+  s.author           = { 'GuiLQing' => 'gui950823@126.com' }
+  s.source           = { :git => 'https://github.com/GuiLQing/TMRelearnModule.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
