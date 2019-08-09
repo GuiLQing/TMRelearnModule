@@ -6,7 +6,7 @@
 //  Copyright © 2019 GUI. All rights reserved.
 //
 
-#import "YJBViewController.h"
+#import <YJBaseModule/YJBaseModule.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

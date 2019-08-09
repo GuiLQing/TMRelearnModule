@@ -31,7 +31,6 @@
 		B0EC6ED922FB1B3C00707D3F /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6ED822FB1B3C00707D3F /* Reachability.framework */; };
 		B0EC6EDB22FB1B3C00707D3F /* SGTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EDA22FB1B3C00707D3F /* SGTools.framework */; };
 		B0EC6EDD22FB1B3C00707D3F /* TFHpple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EDC22FB1B3C00707D3F /* TFHpple.framework */; };
-		B0EC6EE122FB1B3C00707D3F /* TMRelearnModuleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EE022FB1B3C00707D3F /* TMRelearnModuleFramework.framework */; };
 		B0EC6EE322FB1B3C00707D3F /* YJExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EE222FB1B3C00707D3F /* YJExtensions.framework */; };
 		B0EC6EE522FB1B3C00707D3F /* YJNetManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EE422FB1B3C00707D3F /* YJNetManager.framework */; };
 		B0EC6EEA22FB226100707D3F /* TMRelearnModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EE922FB226100707D3F /* TMRelearnModule.framework */; };
@@ -109,7 +108,6 @@
 				B0EC6ED922FB1B3C00707D3F /* Reachability.framework in Frameworks */,
 				B0EC6EDB22FB1B3C00707D3F /* SGTools.framework in Frameworks */,
 				B0EC6EDD22FB1B3C00707D3F /* TFHpple.framework in Frameworks */,
-				B0EC6EE122FB1B3C00707D3F /* TMRelearnModuleFramework.framework in Frameworks */,
 				B0EC6EE322FB1B3C00707D3F /* YJExtensions.framework in Frameworks */,
 				B0EC6EE522FB1B3C00707D3F /* YJNetManager.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
@@ -297,6 +295,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "gui950823@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Z35S33J39R;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -555,15 +556,15 @@
 			baseConfigurationReference = CA8420E8818B41719C62FF3C /* Pods-TMRelearnModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TMRelearnModule/TMRelearnModule-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/TMRelearnModule/TMRelearnModule.framework/Headers\"",
-					"$(SRCROOT)/../TMRelearnModule/**",
 				);
 				INFOPLIST_FILE = "TMRelearnModule/TMRelearnModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -582,9 +583,11 @@
 			baseConfigurationReference = 3FDF2AB15531CFFECC92D988 /* Pods-TMRelearnModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35S33J39R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TMRelearnModule/TMRelearnModule-Prefix.pch";
 				INFOPLIST_FILE = "TMRelearnModule/TMRelearnModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
