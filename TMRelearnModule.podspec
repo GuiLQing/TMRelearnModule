@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TMRelearnModule'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of TMRelearnModule.'
 
 # This description is used to generate tags and improve search results.
@@ -22,21 +22,32 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/gui950823@126.com/TMRelearnModule'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gui950823@126.com' => 'gui950823@126.com' }
   s.source           = { :git => 'https://github.com/gui950823@126.com/TMRelearnModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TMRelearnModule/Classes/**/*'
+  s.resource_bundle = {
+      'TMRelearnModule' => ['TMRelearnModule/Assets/*']
+  }
+  #s.resources = 'TMRelearnModule/Classes/TMRelearnModule.bundle'
   
-  # s.resource_bundles = {
-  #   'TMRelearnModule' => ['TMRelearnModule/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'MJExtension'
+  s.dependency 'YJNetManager'
+  s.dependency 'SGTools/SGSingleAudioPlayer'
+  s.dependency 'SGTools/SGSpeechSynthesizer'
+  s.dependency 'SGTools/SGVocabularyDictation'
+  s.dependency 'MarqueeLabel', '3.2.0'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'YJTaskMark'
+  s.dependency 'SGTools/SGTriangleView'
+  s.dependency 'SGTools/SGVocabularyDictation'
+  s.dependency 'SGTools/SGGradientProgress'
+  s.dependency 'PSGChainedMode'
+  
 end

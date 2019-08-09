@@ -10,8 +10,10 @@
 #endif
 #endif
 
+#import "SGGradientProgress.h"
 #import "SGSingleAudioPlayer.h"
 #import "SGSpeechSynthesizerManager.h"
+#import "SGTriangleView.h"
 #import "SGVocabularyAnswerView.h"
 #import "SGVocabularyDictationView.h"
 #import "SGVocabularyKeyboardView.h"

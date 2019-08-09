@@ -2,37 +2,7 @@ inhibit_all_warnings!
 use_frameworks!
 platform :ios, '9.0'
 
-#Workspace
-workspace 'TMRelearnModule.xcworkspace'
-#主工程
-xcodeproj 'TMRelearnModule.xcodeproj'
-
 target 'TMRelearnModule_Example' do
   pod 'TMRelearnModule', :path => '../'
-
-  pod 'AFNetworking'
-  pod 'Masonry'
-  pod 'MJRefresh'
-  pod 'MJExtension'
-  pod 'YJNetManager'
-  pod 'SGTools/SGSingleAudioPlayer'
-  pod 'SGTools/SGSpeechSynthesizer'
-  pod 'SGTools/SGVocabularyDictation'
-  pod 'MarqueeLabel', '3.2.0'
-  
-end
-
-target 'TMRelearnModuleFramework' do
-  xcodeproj 'TMRelearnModuleFramework/TMRelearnModuleFramework.xcodeproj'
-  
-  pod 'AFNetworking'
-  pod 'Masonry'
-  pod 'MJRefresh'
-  pod 'MJExtension'
-  pod 'YJNetManager'
-  pod 'SGTools/SGSingleAudioPlayer'
-  pod 'SGTools/SGSpeechSynthesizer'
-  pod 'SGTools/SGVocabularyDictation'
-  pod 'MarqueeLabel', '3.2.0'
   
 end

@@ -28,7 +28,6 @@
 		B0EC6ED122FB1B3C00707D3F /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6ED022FB1B3C00707D3F /* Masonry.framework */; };
 		B0EC6ED322FB1B3C00707D3F /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6ED222FB1B3C00707D3F /* MJExtension.framework */; };
 		B0EC6ED522FB1B3C00707D3F /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6ED422FB1B3C00707D3F /* MJRefresh.framework */; };
-		B0EC6ED722FB1B3C00707D3F /* Pods_TMRelearnModuleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6ED622FB1B3C00707D3F /* Pods_TMRelearnModuleFramework.framework */; };
 		B0EC6ED922FB1B3C00707D3F /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6ED822FB1B3C00707D3F /* Reachability.framework */; };
 		B0EC6EDB22FB1B3C00707D3F /* SGTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EDA22FB1B3C00707D3F /* SGTools.framework */; };
 		B0EC6EDD22FB1B3C00707D3F /* TFHpple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC6EDC22FB1B3C00707D3F /* TFHpple.framework */; };
@@ -51,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		192CBA8FE271EA239884907C /* Pods_TMRelearnModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMRelearnModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22EBDF45B2EC89BA75E2A8EC /* TMRelearnModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMRelearnModule.podspec; path = ../TMRelearnModule.podspec; sourceTree = "<group>"; };
+		22EBDF45B2EC89BA75E2A8EC /* TMRelearnModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMRelearnModule.podspec; path = ../TMRelearnModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3FDF2AB15531CFFECC92D988 /* Pods-TMRelearnModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMRelearnModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TMRelearnModule_Example/Pods-TMRelearnModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TMRelearnModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMRelearnModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,7 +78,6 @@
 		B0EC6ED022FB1B3C00707D3F /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EC6ED222FB1B3C00707D3F /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EC6ED422FB1B3C00707D3F /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0EC6ED622FB1B3C00707D3F /* Pods_TMRelearnModuleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_TMRelearnModuleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EC6ED822FB1B3C00707D3F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EC6EDA22FB1B3C00707D3F /* SGTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SGTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EC6EDC22FB1B3C00707D3F /* TFHpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TFHpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +106,6 @@
 				B0EC6ED122FB1B3C00707D3F /* Masonry.framework in Frameworks */,
 				B0EC6ED322FB1B3C00707D3F /* MJExtension.framework in Frameworks */,
 				B0EC6ED522FB1B3C00707D3F /* MJRefresh.framework in Frameworks */,
-				B0EC6ED722FB1B3C00707D3F /* Pods_TMRelearnModuleFramework.framework in Frameworks */,
 				B0EC6ED922FB1B3C00707D3F /* Reachability.framework in Frameworks */,
 				B0EC6EDB22FB1B3C00707D3F /* SGTools.framework in Frameworks */,
 				B0EC6EDD22FB1B3C00707D3F /* TFHpple.framework in Frameworks */,
@@ -166,7 +163,6 @@
 				B0EC6ED022FB1B3C00707D3F /* Masonry.framework */,
 				B0EC6ED222FB1B3C00707D3F /* MJExtension.framework */,
 				B0EC6ED422FB1B3C00707D3F /* MJRefresh.framework */,
-				B0EC6ED622FB1B3C00707D3F /* Pods_TMRelearnModuleFramework.framework */,
 				B0EC6ED822FB1B3C00707D3F /* Reachability.framework */,
 				B0EC6EDA22FB1B3C00707D3F /* SGTools.framework */,
 				B0EC6EDC22FB1B3C00707D3F /* TFHpple.framework */,
@@ -380,30 +376,38 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TMRelearnModule_Example/Pods-TMRelearnModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/LGAlertHUD/LGAlertHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PSGChainedMode/PSGChainedMode.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SGTools/SGTools.framework",
 				"${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework",
 				"${BUILT_PRODUCTS_DIR}/TMRelearnModule/TMRelearnModule.framework",
 				"${BUILT_PRODUCTS_DIR}/YJExtensions/YJExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/YJNetManager/YJNetManager.framework",
+				"${BUILT_PRODUCTS_DIR}/YJTaskMark/YJTaskMark.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGAlertHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PSGChainedMode.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SGTools.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFHpple.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMRelearnModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJExtensions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJNetManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJTaskMark.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
