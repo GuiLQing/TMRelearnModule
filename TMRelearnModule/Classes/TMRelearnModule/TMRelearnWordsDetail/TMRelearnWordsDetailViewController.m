@@ -33,6 +33,13 @@ static NSString * const TMRelearnWordsDetailCellIdentifier = @"TMRelearnWordsDet
 
 @implementation TMRelearnWordsDetailViewController
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    [self.audioPlayer invalidate];
+    [SGSpeechDefaultManager cancelSpeech];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

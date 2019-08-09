@@ -6,11 +6,11 @@
 //  Copyright © 2019 GUI. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YJBViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TMRelearnBaseViewController : UIViewController
+@interface TMRelearnBaseViewController : YJBViewController
 
 - (void)setLoadingViewShow:(BOOL)show;
 - (void)setNoDataViewShow:(BOOL)show;
