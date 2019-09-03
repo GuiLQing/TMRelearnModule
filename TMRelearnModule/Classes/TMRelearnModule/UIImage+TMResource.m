@@ -12,7 +12,8 @@
 @implementation UIImage (TMResource)
 
 + (UIImage *)tm_imageNamed:(NSString *)name {
-    return [self tm_imagePathWithName:name bundle:@"TMRelearnModule" targetClass:TMRelearnManager.class];
+    name = [@"Task" stringByAppendingPathComponent:name];
+    return [self tm_imagePathWithName:name bundle:@"LGTeachingMaterialFramework" targetClass:TMRelearnManager.class];
 }
 
 + (UIImage *)tm_imagePathName:(NSString *)name {

@@ -210,10 +210,6 @@ static NSString * const TMRelearnWordsListCellIdentifier = @"TMRelearnWordsListC
     cell.searchButtonDidClicked = ^(NSIndexPath *indexPath) {
         __strong typeof(weakSelf) strongSelf = weakSelf;
         TMRelearnKnowledgeModel *model = strongSelf.dataSource.allValues[indexPath.row];
-        if (!model.cxCollection || model.cxCollection.count == 0) {
-            [LGAlert showStatus:@"暂无详细释义!"];
-            return ;
-        }
         TMRelearnWordsDetailViewController *detailVC = [[TMRelearnWordsDetailViewController alloc] init];
         detailVC.wordsModel = model;
         [strongSelf.navigationController pushViewController:detailVC animated:YES];

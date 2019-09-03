@@ -58,7 +58,7 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"听写";
+    self.title = [NSString stringWithFormat:@"听写(1/%li)",self.knowledgeDataSource.count];
     
     self.startDate = [NSDate date];
     
@@ -126,9 +126,10 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 
 - (void)scrollToItemAtIndex:(NSInteger)index {
     if (index >= self.knowledgeDataSource.count || index < 0) {
-        [LGAlert showStatus:@"滑不动了！"];
+        [LGAlert showStatus: index < 0 ? @"没有上一个了！" : @"没有下一个了！"];
         return;
     }
+     self.title = [NSString stringWithFormat:@"听写(%li/%li)",index+1,self.knowledgeDataSource.count];
     self.currentIndex = index;
     [self playAudio];
     [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
@@ -156,8 +157,11 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
     @weakify(self);
     cell.ensureDidClicked = ^{
         @strongify(self);
-        if (self.currentIndex >= self.knowledgeDataSource.count - 1) return ;
-        [self scrollToItemAtIndex:self.currentIndex + 1];
+        if (self.currentIndex >= self.knowledgeDataSource.count - 1){
+            [self clickBarButtonItem];
+        }else{
+            [self scrollToItemAtIndex:self.currentIndex + 1];
+        };
     };
     cell.countDownDidClicked = ^{
         @strongify(self);

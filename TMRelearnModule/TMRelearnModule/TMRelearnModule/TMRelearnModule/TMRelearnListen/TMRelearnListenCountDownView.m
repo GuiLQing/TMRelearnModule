@@ -42,12 +42,7 @@
     self.audioProgressIV.frame = (CGRect){self.audioProgressIV.frame.origin, CGSizeMake(CGRectGetWidth(self.frame) + 20.0f, CGRectGetHeight(self.frame) + 20.0f)};
     self.audioProgressIV.center = self.center;
     self.audioProgressIV.image = [UIImage tm_imageNamed:@"tm_dictation_icon_play_default"];
-    self.audioProgressIV.animationImages = @[
-                                             [UIImage tm_imageNamed:@"tm_dictation_icon_playGif_1"],
-                                             [UIImage tm_imageNamed:@"tm_dictation_icon_playGif_2"],
-                                             [UIImage tm_imageNamed:@"tm_dictation_icon_playGif_3"],
-                                             ];
-    self.audioProgressIV.animationDuration = 0.5;
+    
     [self addSubview:self.audioProgressIV];
     
     [self addSubview:self.audioProgressView];
@@ -67,7 +62,6 @@
     self.answerProgressBackView.hidden = YES;
     self.answerProgressView.hidden = YES;
     self.secondsLabel.hidden = YES;
-    [self.audioProgressIV stopAnimating];
     
     switch (countDownMode) {
             case TMDictationCountDownModeDefault: {
@@ -77,7 +71,6 @@
             case TMDictationCountDownModeAudio: {
                 self.audioProgressIV.hidden = NO;
                 self.audioProgressView.hidden = NO;
-                [self.audioProgressIV startAnimating];
             }
             break;
             case TMDictationCountDownModeAnswer: {

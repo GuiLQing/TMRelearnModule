@@ -38,7 +38,7 @@ PODS:
   - SGTools/SGVocabularyDictation (1.1.2):
     - Masonry
   - TFHpple (2.0.0)
-  - TMRelearnModule (1.0.1):
+  - TMRelearnModule (1.0.0.1):
     - AFNetworking
     - MarqueeLabel (= 3.2.0)
     - Masonry
@@ -129,7 +129,7 @@ SPEC CHECKSUMS:
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SGTools: 8fc9d00a477df89f787b56995ecb38c4981ad4fc
   TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
-  TMRelearnModule: d59aedd49cc48698b1734a93cc6cf28c85d30718
+  TMRelearnModule: 0d8e6409703af1aa357e2a4d84e99feb20c5841b
   YJActivityIndicatorView: f51112fa59d69762bd6147cf0da573ff2a9a0215
   YJBaseModule: 18429b1c2747fe8c341bc022e44b9913faf1ba81
   YJExtensions: e1f7e35f8e851ed41598d8449fc3735ef4b6bddc

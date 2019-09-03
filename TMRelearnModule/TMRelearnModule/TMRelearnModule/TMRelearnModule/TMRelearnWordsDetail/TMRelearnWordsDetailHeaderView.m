@@ -12,7 +12,7 @@
 #import <MarqueeLabel/MarqueeLabel.h>
 #import "UIImage+TMResource.h"
 
-@interface APWordsDetailVoiceItem : UIView
+@interface TMWordsDetailVoiceItem : UIView
 
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) UILabel *textLabel;
@@ -23,7 +23,7 @@
 
 @end
 
-@implementation APWordsDetailVoiceItem
+@implementation TMWordsDetailVoiceItem
 
 - (instancetype)initWithText:(NSString *)text
 {
@@ -77,9 +77,9 @@
 
 @property (nonatomic, strong) TMRelearnKnowledgeModel *wordsModel;
 
-@property (nonatomic, strong) APWordsDetailVoiceItem *unVoiceItem;
+@property (nonatomic, strong) TMWordsDetailVoiceItem *unVoiceItem;
 
-@property (nonatomic, strong) APWordsDetailVoiceItem *usVoiceItem;
+@property (nonatomic, strong) TMWordsDetailVoiceItem *usVoiceItem;
 
 @end
 
@@ -109,11 +109,11 @@
     }];
     
     [self layoutIfNeeded];
-    APWordsDetailVoiceItem *unVoiceItem = [[APWordsDetailVoiceItem alloc] initWithText:[NSString stringWithFormat:@"英 %@", self.htmlStringToAttributedString(self.wordsModel.unPText).string]];
+    TMWordsDetailVoiceItem *unVoiceItem = [[TMWordsDetailVoiceItem alloc] initWithText:[NSString stringWithFormat:@"英 %@", self.htmlStringToAttributedString(self.wordsModel.unPText).string]];
     self.unVoiceItem = unVoiceItem;
     [self addSubview:unVoiceItem];
     
-    APWordsDetailVoiceItem *usVoiceItem = [[APWordsDetailVoiceItem alloc] initWithText:[NSString stringWithFormat:@"美 %@", self.htmlStringToAttributedString(self.wordsModel.usPText).string]];
+    TMWordsDetailVoiceItem *usVoiceItem = [[TMWordsDetailVoiceItem alloc] initWithText:[NSString stringWithFormat:@"美 %@", self.htmlStringToAttributedString(self.wordsModel.usPText).string]];
     self.usVoiceItem = usVoiceItem;
     [self addSubview:usVoiceItem];
     

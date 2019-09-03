@@ -14,6 +14,9 @@
 #import <SGTools/SGSingleAudioPlayer.h>
 #import <LGAlertHUD/LGAlertHUD.h>
 #import "TMRelearnResultViewController.h"
+#import <SGTools/SGSpeechSynthesizerManager.h>
+#import "TMRelearnMacros.h"
+#import <LGAlertHUD/LGAlertHUD.h>
 
 static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIdentifier";
 
@@ -55,7 +58,7 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"听写";
+    self.title = [NSString stringWithFormat:@"听写(1/%li)",self.knowledgeDataSource.count];
     
     self.startDate = [NSDate date];
     
@@ -73,7 +76,7 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 - (void)willResignActive:(NSNotification *)noti {
     [self.audioPlayer invalidate];
     [self resetCountView];
-    
+    [SGSpeechDefaultManager cancelSpeech];
 }
 
 - (void)clickBarButtonItem {
@@ -123,9 +126,10 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 
 - (void)scrollToItemAtIndex:(NSInteger)index {
     if (index >= self.knowledgeDataSource.count || index < 0) {
-        [LGAlert showStatus:@"滑不动了！"];
+        [LGAlert showStatus: index < 0 ? @"没有上一个了！" : @"没有下一个了！"];
         return;
     }
+     self.title = [NSString stringWithFormat:@"听写(%li/%li)",index+1,self.knowledgeDataSource.count];
     self.currentIndex = index;
     [self playAudio];
     [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
@@ -153,8 +157,11 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
     @weakify(self);
     cell.ensureDidClicked = ^{
         @strongify(self);
-        if (self.currentIndex >= self.knowledgeDataSource.count - 1) return ;
-        [self scrollToItemAtIndex:self.currentIndex + 1];
+        if (self.currentIndex >= self.knowledgeDataSource.count - 1){
+            [self clickBarButtonItem];
+        }else{
+            [self scrollToItemAtIndex:self.currentIndex + 1];
+        };
     };
     cell.countDownDidClicked = ^{
         @strongify(self);
@@ -185,6 +192,7 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 }
 
 - (void)playAudio {
+    [SGSpeechDefaultManager cancelSpeech];
     if (self.audioPlayer) [self.audioPlayer invalidate];
     NSURL *audioUrl = [NSURL URLWithString:[self.knowledgeDataSource[self.currentIndex].usPVoice stringByAddingPercentEncodingWithAllowedCharacters:NSCharacterSet.URLQueryAllowedCharacterSet]];
     @weakify(self);
@@ -193,7 +201,15 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
         [self updateCountDownViewProgress:progress];
     } completionHandle:^(NSError * _Nullable error) {
         @strongify(self);
-        [self resetCountView];
+        if (error) {
+            [LGAlert showStatus:@"音频资源错误，启用系统播放"];
+            [SGSpeechDefaultManager speechWithEnglishText:TMFilterHTML(self.knowledgeDataSource[self.currentIndex].cwName) completion:^{
+                @strongify(self);
+                [self resetCountView];
+            }];
+        } else {
+            [self resetCountView];
+        }
     }];
 }
 
