@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-TMRelearnModule/Pods-TMRelearnModule-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/LGAlertHUD/LGAlertHUD.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/PSGChainedMode/PSGChainedMode.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/SGTools/SGTools.framework
+${BUILT_PRODUCTS_DIR}/TFHpple/TFHpple.framework
+${BUILT_PRODUCTS_DIR}/YJExtensions/YJExtensions.framework
+${BUILT_PRODUCTS_DIR}/YJNetManager/YJNetManager.framework
+${BUILT_PRODUCTS_DIR}/YJTaskMark/YJTaskMark.framework

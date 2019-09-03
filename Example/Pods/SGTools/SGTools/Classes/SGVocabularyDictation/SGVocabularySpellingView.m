@@ -37,8 +37,9 @@
         [self.contentView addSubview:self.lineView];
         
         [self.textLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.left.bottom.right.equalTo(self.contentView);
-            make.width.mas_greaterThanOrEqualTo(15.0f);
+            make.right.equalTo(self.contentView.mas_right).offset(-10.0f);
+            make.top.left.bottom.equalTo(self.contentView);
+            make.width.mas_greaterThanOrEqualTo(5.0f);
             make.height.mas_greaterThanOrEqualTo(30.0f);
         }];
         [self.lineView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -46,7 +47,7 @@
             make.height.mas_equalTo(1.0f);
         }];
         
-        [self addObserver:self.textLabel forKeyPath:@"text" options:NSKeyValueObservingOptionNew context:nil];
+        [self.textLabel addObserver:self forKeyPath:@"text" options:NSKeyValueObservingOptionNew context:nil];
     }
     return self;
 }
@@ -57,7 +58,7 @@
 }
 
 - (void)dealloc {
-    [self removeObserver:self.textLabel forKeyPath:@"text"];
+    [self.textLabel removeObserver:self forKeyPath:@"text"];
 }
 
 @end
@@ -220,6 +221,7 @@ static NSString * const SGVocabularySpellingCellIdentifier = @"SGVocabularySpell
         _collectionView.backgroundColor = UIColor.whiteColor;
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
+        _collectionView.bounces = YES;
         [_collectionView registerClass:[SGVocabularySpellingCell class] forCellWithReuseIdentifier:SGVocabularySpellingCellIdentifier];
     }
     return _collectionView;
