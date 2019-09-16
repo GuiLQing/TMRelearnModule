@@ -33,7 +33,6 @@
 		071DEB28EFC1EC8CD72B5C5B5E4AC6C8 /* LGLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3520E02327CB174905F2D1C218F029B3 /* LGLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		082D4FC5AB6E1B616F98920EE594E427 /* NSString+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = D269AF0973F063EB1FE2CEFF1D3C53FB /* NSString+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		084B7FA47D042567F5B281E86FCF88D3 /* YJSpeechResModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3621DAA5331EBA628BF1575F39E0C6AB /* YJSpeechResModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08E400CE061EF5590A345DF4B7441BB3 /* TMRelearnKnowledgeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F88A153B3D921D00A2CF89BB7A15A685 /* TMRelearnKnowledgeModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		093A66B7EEB143B5BA416158BCA2B9C1 /* YJBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C8A3C91AF95FF9F1E635D35F45F90E /* YJBModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC7789DBD0F625DEC736BB6A50D2F2A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 546AEE9928F5D178286CD77CAE1074FC /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +45,6 @@
 		0B3243940A6A4CB1C21B3D678BD426E2 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7625C87EC8ECF0F34A1A56F2B43C02DB /* NSObject+MJClass.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0B33C150BA10F97755A3F4AE7B8C164C /* RACGroupedSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1054806508B7D029AA4273F1476AA /* RACGroupedSignal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0B7047012F12235B968403E6EB6EB20E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B892E0D11A3B257C5C095396F623F180 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0BA5FD2D362567055295ED22E09CF9E1 /* TMRelearnListenCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EF1FEBB45EAABB124270040FEF79B4 /* TMRelearnListenCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D74F0D7952E2B2C6A803AB67358D263 /* RACSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C494BDED761561A98F5549153B17351 /* RACSequence.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0D7A4B0DD523881B016B3D490E13B147 /* SGSingleAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8567671EBC529E981D319DD9839A05 /* SGSingleAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E233BDCF23F84AB001CF6B2BEAC564F /* TMRelearnWordsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9E59249F5E49288F2E5A5F36ADA06C /* TMRelearnWordsDetailCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -54,7 +52,6 @@
 		0E777EB745288C8496F95971828CD8A7 /* NSObject+RACDeallocating.h in Headers */ = {isa = PBXBuildFile; fileRef = C51D791F1F046EF55D6A7548B28BFB72 /* NSObject+RACDeallocating.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EA37050E9BB0E53138BF15C92BFF1BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE95573307688040BFA58EE5C34800CE /* CoreGraphics.framework */; };
 		0F47C7DE634D4FE07B595912093139FE /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04B71980A8AA582AC9A7C544C5531FAE /* MJRefresh.bundle */; };
-		0F7385ACA234054F3FE55241411F166A /* UIImage+TMResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7829AA3BC8E1D341776B1D65797EFF78 /* UIImage+TMResource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0FF8F8230EE46B0CE29E06D61BF198D9 /* RACKVOTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = F41C6EEC64251925E66B232F1272AA08 /* RACKVOTrampoline.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		101C7061B0C605920296CFA42E77FA82 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9A7CDBD0457A99FB6FB802BEB86EA2 /* Masonry.framework */; };
 		1034F8D870215015FD517EAC3CEF158F /* UIScrollView+PSG_ChainFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A17C1E5AF7ED9B7F8AF8AE0AF3B8C8B0 /* UIScrollView+PSG_ChainFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -64,7 +61,6 @@
 		1252F00F08A590B26DBAE34324469C25 /* RACTestScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C55E7EF71CFE2E07C59B778F5A8B305 /* RACTestScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		12BD73387C7BD6F817E4A28BF8CEBE07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029612DDA60A1A2E2FC3ABF138617E0 /* Foundation.framework */; };
 		131DE1518FF30E7E53E8B66A7F62A548 /* YJNetManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B83C2812DEA646A02B254B0989EEF9 /* YJNetManager.framework */; };
-		13385B7D6380588B35D770CE2EF17C2F /* TMRelearnMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88215F1E3FD8BD1852025B6CEE7E5A /* TMRelearnMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		13596D0F4E9AAB6361442F1866886CA7 /* TMRelearnWordsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6800FEB95EE2F0D936C2B88E41A794 /* TMRelearnWordsDetailViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		13611CB0839D7F8C3EFCB9F9ED5495BD /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8209F0DCCF980CCE5CEDD05293D10D /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13754DB96AFC1698C7AC0F754EC919D8 /* RACScopedDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 976269CB0C338CA38BB50F8E00514ED3 /* RACScopedDisposable.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -82,6 +78,7 @@
 		196F0ACCD2DD4978634280B2B30CB2D4 /* UISegmentedControl+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 6172A8B352852036AEF238868E8A843A /* UISegmentedControl+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1994D2742DF813C18E6D08C26B708E74 /* TMRelearnResultDetailFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BB0160CF15262AE2B812FD1B480A2E /* TMRelearnResultDetailFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FF3527F4343474CE6B65216A41FDFD /* MobileCoreServices.framework */; };
+		1AE86EEA407A032B26BF88C1FB3D09E8 /* UIImage+TMResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7829AA3BC8E1D341776B1D65797EFF78 /* UIImage+TMResource.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1BF29A9F835357D1020A919F144C6C2E /* RACArraySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 608B4BE17EEC93B04AF03D3D0DE0043A /* RACArraySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C0E3E826515E7209B189624B2FC391E /* NSObject+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 9812BED26EF77B64486CCC95FD6D8D60 /* NSObject+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C2E9363E0A21D93A71EB99BCB57D8FE /* NSUserDefaults+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D945D8BE51DA01481DD0E66C46A411 /* NSUserDefaults+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -103,6 +100,7 @@
 		22FEAEDDD2743EE2DC65F25FA3CBFC28 /* UIView+PSG_ChainFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF00C0C49450B4522E86B95ECAA87F3 /* UIView+PSG_ChainFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23BFAA2CFC7E8D803817898E2B4EBE1A /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D30AD2E55358252FCF83D1AF7183CB /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		24413D31CD0AD183D8788236283B1640 /* YJNetMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 3806C03A84EFFD551EB941C9168CF074 /* YJNetMonitoring.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		244D3DDAAE8FA86DC65BC8BC5E27289D /* TMRelearnWordsDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB80284DAB1EE5652795693F6C9C0732 /* TMRelearnWordsDetailCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2468AA11C79AF5FFFC1EAD58D98C545D /* YJLancooAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C74AA7B5F11CE133501E45C04BE3B87 /* YJLancooAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2484585CE839AB7E8A4B5C959C5377DF /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A067CA503A9F5CBFA4AC1847D3D3F841 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2548C56DA0AB5BC33B9DEFB9C73B5C40 /* LGAlertHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 591CAAB71C0AD9A2EC032A00060F6274 /* LGAlertHUD.bundle */; };
@@ -126,6 +124,7 @@
 		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B34BD6A8ACBA2AE755C20CD9E16055CC /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B20F9AE6275B5739BBB0C25CE28DA04 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC45180D4E34447E3BEE1B146FA512C /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2B658AF40C8CA30EB5C2CB58523DBE69 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BFCA819B6EAD7B71744A4DDEED20A7 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B71CF57E7A51FB5C6D05395ADD2F56D /* TMRelearnListenCountDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A0F8D7D1906A1DDBA89A51C110E588 /* TMRelearnListenCountDownView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2BA566A33A65553784D60AC9D76CAEA0 /* YJBaseModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607982EB8635770B503B26354FBCA04D /* YJBaseModule.framework */; };
 		2BEE5D56CBEEE187EFD5D3FBA3C8345F /* UISlider+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 624C0FDA4A6E7E726597FC67AB84D1A5 /* UISlider+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D1DD85277683E3437EABFBA1AE6F9C9 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6CB13FA294A73E75D59F0482FA242D /* MJPropertyKey.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -149,7 +148,6 @@
 		31E93B6B8A0E06964AA0E218F747B5BE /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B223A776FD065C3C853D8C5578BF2D /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		325CCD10225D70492E63455B878087ED /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C85055605C09EDBCCB2100604C1AE910 /* AFNetworking-dummy.m */; };
 		32D7A52371319C58332BBA4E24C6DC1C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFEC7E5979687CB1B875533BE964B87 /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3330CBA068007BA914848E3DDC0009F1 /* TMRelearnWordsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C99287F0FA44116482AF93528E39080 /* TMRelearnWordsDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		335C0414D14BE7D4CF4FEF7B734758C7 /* NSError+YJNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B72AB9386C92CDE84AF539C4A6B719 /* NSError+YJNetManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		338A018C798FF84F512D3C3B219B508D /* YJSpeechResModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B949D33C703258449676E719EFC546AE /* YJSpeechResModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		34A58D8B65288DC7B1F130F59373B8D4 /* YJBWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E90FBF501B80E18E6E4A625E4E915C /* YJBWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -161,19 +159,19 @@
 		362F464D0DF5E7323FF0B4898F113872 /* KYStartEngineConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 364E8C631D216F92C922E9BC1E6C54FC /* KYStartEngineConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		369033A6FF6F569090AEB6C0A7AA720E /* YJBHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 15160EC9EED335ECB5DA4BF5B946D226 /* YJBHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36FBE7D29EE478BECDE50277EFAB1AD5 /* RACEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 63494950B589CA47B1E4D814D161EF33 /* RACEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		375A2FABD38975B7196CF09F34948A6B /* TMRelearnSpeakFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB51A348C4A8CD0152F0FE781EF2608 /* TMRelearnSpeakFooterView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		37A118C6CB3EFD7AF9C4F636DE066162 /* UIGestureRecognizer+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F998F746522487C2EE81BF74747D4A /* UIGestureRecognizer+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		37BD0643D524F7AEAAAC47781CF1DFED /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4742641C751F1DE05D94B74A1A630381 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3868A32D66E569D091CD524364A26E7B /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF9592C800A5D7AB1AE4BFA279B52DA /* Reachability-dummy.m */; };
 		387E3DF3AC99EBCCAE19884DDAF9F41A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D69B9E21C3D5DF92B5F497A4B7DC8 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38B212DA45675C8E94A50A011026D432 /* YJBDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335C85FC9FFBD7D10BAC55B4B7CE565 /* YJBDataModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		394585045E873E03416100BA32C9BD7B /* TMRelearnListenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF56858CE05165BD476A1CF39534D238 /* TMRelearnListenViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38C50A1352BBFBE55278FB77DCD5BBC9 /* TMRelearnBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66975E95D8EE0F7714C7ACE2E2EA97C8 /* TMRelearnBaseViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A987EBAB58E452E0685910E4BB5574A /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A5ED3D725A8F203CACEABFD757494B3 /* RACUnarySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 3965F6417C23A55BF23F37A9A8241554 /* RACUnarySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ABA49035E8D536C3AB7F619EDB3875E /* RACSubscriptingAssignmentTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A0B45B9E41874FF081421359BBAEF0 /* RACSubscriptingAssignmentTrampoline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BBA332D04F4DB60030749772FBD20B2 /* YJBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CE9863D3FB737A841849136CF5C8EB /* YJBModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CB58EAD470423964D2552619FE8AA61 /* KYWavHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE90DF7BF4E93730C4B3ACFAB3B0EE6 /* KYWavHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CB86559F22E2AC4CEC3342CAD2B1410 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0590AFD84BF316DEF44C7DDA39A933F2 /* MJRefresh-dummy.m */; };
-		3CD3AA3B10560973818E5EC9489D4734 /* TMRelearnAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D58F4248A1E2D1C79AA808FDC10ADD9E /* TMRelearnAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DC839511D0A037EC64B87F33DD16263 /* NSUserDefaults+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AD635890037B5483771F240E0AC10B /* NSUserDefaults+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = C324A777A9566F63C486841CE03601A7 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EBB81E7CA5422AAD4706E672DAB67E2 /* UITextField+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F04B98DC51A76B143B233F615802D65E /* UITextField+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -216,7 +214,6 @@
 		4AB93A16D070E9BE363D78BB524EE846 /* NSObject+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC86C6CC0AE9734D6571E1DB4673AF /* NSObject+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B324BEDF51F41FB2BCF4FC57C1AFF60 /* UICollectionViewFlowLayout+PSG_ChainFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C38E1357EA56B2FC8FB58D71B04DAF /* UICollectionViewFlowLayout+PSG_ChainFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B7B7E05B39D8748B59CCB236EC2452C /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AB2A8F0AF48573356A31F639C2C489 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C023FE721B85DE93A8718F00A1F0617 /* TMRelearnWordsDetailHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D61F6B817F7F40D995AAFF32131724 /* TMRelearnWordsDetailHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4C2A0EB24C7F6FC684F293211460A5B1 /* KYTestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D642EA8FEF1568F817C1C583FF7EE8FC /* KYTestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C54EF84524F821B149321B7C1CFBE5D /* RACStringSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5AB64536EF5E08D6BD84CB820DDCDB /* RACStringSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C8EC62108592B1682DA83D0A1084AEB /* YJBNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 64710D14F2FFF86E342BEFD6948BD949 /* YJBNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -240,6 +237,7 @@
 		525F1D43A056E7851C368CC61F247D86 /* TMRelearnRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D25F96D31DA10EC8404FF282CF5470 /* TMRelearnRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		528237787EC24E25AD6BB486B1BEBE5D /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 271AB7C13B092C44E30722FE47E1EDCC /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52C9B1A117B236959F9DB8C8F7EE2DB0 /* NSOrderedSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 765E037323D695D4197D510C7E800D1A /* NSOrderedSet+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5353212D1C14BA63C0C03BEDCECF9281 /* TMRelearnResultDetailFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DBE3CBFA549FBBBC17934D99EA5209 /* TMRelearnResultDetailFooterView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		53576BEE70AE9BA2EDB21951F0EA109A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029612DDA60A1A2E2FC3ABF138617E0 /* Foundation.framework */; };
 		544329BCBB53350B127C17FA664183F7 /* LGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = AB819726F6583AF45321C74889F40EF9 /* LGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55CD6F7C47DEB865A9B847A5D3E3B5DB /* YJSpeechResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4335BC18152C7428971385B6E56669 /* YJSpeechResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,6 +248,7 @@
 		57B76E12CAFA0AA0CA152F375701EDBF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AC4879657BA9C3DC075243EE351C52 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		57EED4323D57B74815E28A2828C58E64 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 876DEC6DDA21583E1ADB03468071F022 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5802DB4DBED6491F72B766F63C822F94 /* YJBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 340906765D942374B427DE1499F9B1B5 /* YJBViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5825D364B4FF132FC9DC2CDA339471D1 /* TMRelearnWordsListFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 049DBB2D42B946E317D6E8FD2EEE7418 /* TMRelearnWordsListFooterView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		589C4F7CED640C41BF3722230F66057B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F305C7AA56966B91F97DE08BD5E157 /* MJPropertyType.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		595527C54E24251571AA3B9E61D616BE /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E3501ED61C8A10167F7E54190EDA5B56 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59838A0EC8DBA11C13A666F664FB098A /* NSFileHandle+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5B07E1D7524858C660FCE153D61628 /* NSFileHandle+RACSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -269,7 +268,6 @@
 		5EC4E019F03252F04EA870CEF3B21347 /* TMRelearnWordsListFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7EEDDDB9FD4E8E1A3C64FA1ABBF02 /* TMRelearnWordsListFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5F8B5775C32CAF1561982E473E1B71C5 /* KYTestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ED60546921C78E178DBB53F6FC5873 /* KYTestConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5FDA48FF2A625293ADCB4D2B8EA571FC /* TMRelearnListenFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE1D09376A36880CE554367EFA44A7E /* TMRelearnListenFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		60A29F39E4D78AF1A5AD45BF9C9EB040 /* TMRelearnSpeakManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD579B110966EB065AFFD62D543C3826 /* TMRelearnSpeakManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6143D9C7F147A3856D0E84D2A774A5B7 /* RACTargetQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7396D2B44CC641DE4EB062B175C541C8 /* RACTargetQueueScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		61C58C365B3BD569F9CA47465144CF25 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C34F1D0423051364D56021CECE6994A5 /* MJRefreshStateHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		61DE8D144492631B73C3F002C93CBF03 /* UIColor+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = E78CA9F67A1EB3933DD656845C899138 /* UIColor+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -300,6 +298,7 @@
 		6C1461ED2AF53643934B4B97E9BB8A7D /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2B4871034AE5DD29E96E601305C065 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C14AB970BB1DDAF58E38E6611214C3F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA42E2E15619FF1835AF2D7ADDA55668 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6C510B0080D76DC00697309BFC0BC5D1 /* UIImage+SGVocabularyResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 09711DDFDCC48AA3B234BBC33B4319C0 /* UIImage+SGVocabularyResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CDB4E9CF72E48C30CDF74C37CEF797C /* TMRelearnSpeakManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD579B110966EB065AFFD62D543C3826 /* TMRelearnSpeakManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6D0581C2A32BE5144374121B8706B2C0 /* UITextField+PSG_ChainFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B19C25E2B97B42359850E46237625CB4 /* UITextField+PSG_ChainFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6D13AD3672FE86D60332C5EACB9CAF18 /* YJBTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC93E47C882E5AD53FE9A01EF5F379E /* YJBTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A156142136CAAB7B8AC024FDEAE2900A /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -316,12 +315,13 @@
 		7239C42C7922EEA6DCDC390E1F1BE931 /* NSObject+RACDeallocating.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CDC3589D68F80241FE35DBAB2BF4E3 /* NSObject+RACDeallocating.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		72543619BA6A9EBD75854B1DBDA4600C /* NSString+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEA84B1C66D9EFE71E0CB3D1F5ADA83 /* NSString+RACSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		72DEAE28B9A340A0F674C772DC042B92 /* YJExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED3C487628C3461507B6522EAB760A2 /* YJExtensions.framework */; };
+		73788D64637C6BF8C48275C8C17E565F /* TMRelearnListenCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EF1FEBB45EAABB124270040FEF79B4 /* TMRelearnListenCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		73CAE5197BABB60D36C31398317C3D0D /* UIAlertView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DCC5358AB54FEED75B0ED0A5747910 /* UIAlertView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		747ED574017AFD0D6083DBBEAA7A3331 /* NSMutableAttributedString+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EFEC7B29B45304412638BC00EA89FD /* NSMutableAttributedString+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		74B961D56CCCCF7662EA2C52965EA772 /* NSDate+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = D3208EF509105A12A039E8FEB6FE0E50 /* NSDate+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		753AF8929D3D266B8CE8A01597D0E350 /* YJSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDAB3468821AA1BDA14DC9FE4DE5F4F /* YJSpeechManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		756DF15604BF0E2C54423FC85A87004A /* TMRelearnDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 24603D3E1FBB243764DF20703750C141 /* TMRelearnDisplayLink.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75F6BD7AB4B4EFFA0C1CE436AF78BB9E /* LGAlertHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB3EF35DBCC3CADB32D5A8DE6B11CED /* LGAlertHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7639436C3BEA3ABD1DC76AA5C694B410 /* TMRelearnSpeakTipsAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E493D2B1E4A1004F64F6262609FB3E /* TMRelearnSpeakTipsAlertView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		766A7336B4FF0D3095D34BF4E7C16955 /* LGLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DC215E6FE60FAF6A85F5CDFEF0F96998 /* LGLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76857F8B01FCB84D46440C0E1F70824A /* YJExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B241CF9E751EC09A03F604A6D09C06A /* YJExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77376F14B66CDB736B471439759402CC /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEF59D8F23E1F67EF10BF5236C2F88C /* MJRefreshNormalHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -335,7 +335,7 @@
 		79E8913083CF44F8E66B47BB3D87BE6D /* TMRelearnSpeakCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ABDB605BFCCE11A97B39892E716182 /* TMRelearnSpeakCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		79EA9CF6A5858CEA5972A7199723C8B5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0653F391C644940B3B1B0EDDC22BB /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		79EBA3A4F0BFB9A341801D8B6F4489E2 /* RACTargetQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 369490385D7DC97DAF84DFEBCBE4AC06 /* RACTargetQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A43BE272497C0B8A9D12348AF94FB2C /* TMRelearnWordsDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB80284DAB1EE5652795693F6C9C0732 /* TMRelearnWordsDetailCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B02337DA1F29ED0CA0C5497C366EA1A /* TMRelearnSpeakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EC9E32BC86D16D4EE10A91B18AAD70 /* TMRelearnSpeakViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7BB2D82382756971C4036358F659F533 /* SGGradientProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 865A959B99ECA666F0BBAFA01CA7588B /* SGGradientProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BB5CDE80D6601DA0B286793197D4F01 /* RACDynamicSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8647C744543329BFFE6FD62093CA95 /* RACDynamicSequence.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7C6B8003BA63EB06764FB02C38F1B77B /* SGTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C88F76386A1FC9519C855315FFB51A /* SGTools-dummy.m */; };
@@ -346,15 +346,16 @@
 		7DD0DD855E04C32B312C85245472E57D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCEA4145595F965AA3B555D36CC688 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7EAEE0317858D8831DB9A87B4D0A8CD4 /* TMRelearnSpeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A3CE7EBFC3E56FD652229BB48FCE04 /* TMRelearnSpeakViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3954076819111A9E9F82DF38FBABCCAB /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F3B27A277A437E34A672038E37DF9F9 /* TMRelearnWordsListFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 049DBB2D42B946E317D6E8FD2EEE7418 /* TMRelearnWordsListFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7F8D75FDA1C69DE264071D4ADD76E445 /* RACTestScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0DA56007D8C242244AEC13166740B7 /* RACTestScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80455E80679A1B282791F1E1A4985F57 /* NSDictionary+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2852EB044D2DFE3DE9A4DBA00E6690 /* NSDictionary+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		80790383D4AC4172346ADD8C3437F390 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CB57A2ABB74D253F7D9D530EC9FD3 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		809B02C8FD1F889F2A9FBE42BC24351E /* UIButton+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3462F2585BD5C1E1DB7FA85DEB0B1648 /* UIButton+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80CC99F4577B7FB5A422DD0F9D5BB1F7 /* NSNotificationCenter+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D4454F6146E42D842BF0CA91211ACC3F /* NSNotificationCenter+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8136A36206C208E1C56CFF18812EB9A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029612DDA60A1A2E2FC3ABF138617E0 /* Foundation.framework */; };
+		8180ACCBA8EC134C664C06ACC7FF3115 /* TMRelearnWordsDetailHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D61F6B817F7F40D995AAFF32131724 /* TMRelearnWordsDetailHeaderView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8211765364C498DFD1A5178EA0B6E2ED /* NSEnumerator+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 456F581F664E20D2423D0115FBF09E18 /* NSEnumerator+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		824321634C07E5B6395B00951F9D33E2 /* YJActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E745D35B7D4587E825F79028A34234 /* YJActivityIndicatorView.framework */; };
+		833B626D0EC1809138A5B4A6FBBDE9BB /* TMRelearnMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88215F1E3FD8BD1852025B6CEE7E5A /* TMRelearnMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8360796B6C1AEB3277E46EF8E2C8F1B0 /* YJAlertViewShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A80F4B0035DEA793FF58F7999A2787D /* YJAlertViewShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837642568E0408D875B54F1446B6D6A9 /* SGSpeechSynthesizerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC06F87289C9106584031AE668E8E7C3 /* SGSpeechSynthesizerManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		83DC5A72CDE897B362E3920643436877 /* RACSignal+Operations.h in Headers */ = {isa = PBXBuildFile; fileRef = A2567976F5E79E324C885E5315E03CAC /* RACSignal+Operations.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -390,8 +391,8 @@
 		8C420BE58C8D88A206C002E5C21BD9A6 /* YJBCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC5FE3DBA17752D2832B4EAA21F9FF /* YJBCollectionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8D1AAEEE135E38D0BF06FCD5AD03C02E /* RACTupleSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A448D70EE5B394FC4BB81577D08D963 /* RACTupleSequence.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8D5FDEC4FD4BE8B993CE8A68B9AD389B /* RACSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16E83C01218F7B656AF8CCDBF2D90A /* RACSignal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E7D8587B3969717388399CC9E376CF4 /* TMRelearnListenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF56858CE05165BD476A1CF39534D238 /* TMRelearnListenViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8EB7ACD9115B1529402F21D2456AADE0 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DB612BE5151FCE76F9A279CD2F72BC /* MJRefresh.framework */; };
-		8EE648F04DDC3E23E9162F8A6C248A3F /* TMRelearnListenFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8546B7E1F6AB14CC56F99BEF186B7EE /* TMRelearnListenFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8F367E84B3C30DD4FE4950405F7B6569 /* SGVocabularyVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 617E67CD0F68E3AFDB4740D36C735B3F /* SGVocabularyVoiceView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8F480DDF5A95A3C555DBC8583267A296 /* SGVocabularyKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 274DCBFB0146428A3C471D6874014F18 /* SGVocabularyKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029612DDA60A1A2E2FC3ABF138617E0 /* Foundation.framework */; };
@@ -400,6 +401,7 @@
 		91A5E4F71D63D9742C0CFF380EA11B9D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB3628B77B0FDA968C25E4C4055F77 /* SystemConfiguration.framework */; };
 		91DFAF9861C2279F717CD150FDCE7D60 /* RACKVOChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E08895A978F7D9BDC3F3183A06CF2C0 /* RACKVOChannel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9270A8974DB096212DCFFF3CDF2783E1 /* YJExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED3C487628C3461507B6522EAB760A2 /* YJExtensions.framework */; };
+		9288D6613F9856B7D39F792C1571EFAE /* TMRelearnDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 24603D3E1FBB243764DF20703750C141 /* TMRelearnDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		92CEBD6D33C88AFCA5075B4F567D2407 /* NSDate+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B2F724A07AB1FF724889580027D42C /* NSDate+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		92FC2AF087A8605D0F1B508E6286EC35 /* UITextView+PSG_ChainFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C9745424CA510C6F0916605189961F /* UITextView+PSG_ChainFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		942A46291911E1A1F7EFEF818B7EC238 /* UIBarButtonItem+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CD42E922B87927FD0534B98BA3CA98 /* UIBarButtonItem+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -408,15 +410,16 @@
 		9485DC6062312B3855B1EEAC145D1794 /* CALayer+PSG_ChainFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 791A8D0653DAEACAFBEA46D37846AEDB /* CALayer+PSG_ChainFunction.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		94940A2C852223F20EE7ED83A9BB5179 /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 260398A24AE713CEDF215DA575AFDA84 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94B4208E3A0ACC107C57044745ECFAB5 /* NSDictionary+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75EC5AE2B0ECCE3A7010929DFCFC6CA2 /* NSDictionary+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94EF72F9F85F31E95787EB5B4D684161 /* TMRelearnSpeakCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4775FAB89C68C717A18A0497901A8C /* TMRelearnSpeakCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		95119CAAA898ED546EF08B3AF2E39101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029612DDA60A1A2E2FC3ABF138617E0 /* Foundation.framework */; };
 		95620D495B12A8834210740DA6DBFD7B /* RACSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 789A74757B7B3EEFF0AFB307629D8F21 /* RACSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95BD9ECE799ABE9F7F41DB1D4F44DE31 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = CF77E83F10225285E4BF924D34A006CB /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95CFDBE21296A9A17F4B7B20C380276E /* NSObject+PSG_Customer_ChainFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 093C6AAFF3336CCAF0C46A3E8F3D5DDF /* NSObject+PSG_Customer_ChainFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95D6BB503D61CA688B72761BAE190518 /* NSArray+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB18DC55F13B653D01BD8A93FAA8CF /* NSArray+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		960430761844DEFF109629E08E6ECF58 /* TMRelearnAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D58F4248A1E2D1C79AA808FDC10ADD9E /* TMRelearnAlertView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		96210B1FF42F713251F3A6763DFC2E03 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AA26F0BBF36108DA14AD8058396376 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		962BF2EBDEAA6A8C42570E10B082AC35 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E732AFA5F63461A268F7E396C10EF0 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		967087CC83798EB6F7D2A59465F81599 /* UIImageView+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = DD322C9823F0F59677C70AD75E1651CD /* UIImageView+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9695B6C16B15BABF5945B7ED461FFFB1 /* TMRelearnResultDetailFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DBE3CBFA549FBBBC17934D99EA5209 /* TMRelearnResultDetailFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		96CC3EEDCFF93EA37B2384F9E8E67DC8 /* YJAlertViewWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CE235B53C6AA824C478CE961CB925DF9 /* YJAlertViewWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B4247150A030BC7DADD1B70C14693 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9860C8BE8C1FAE3C1BA4A981D95E0B35 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C941AC5500C72FC21040CD64346DC392 /* UIScrollView+MJExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -449,6 +452,7 @@
 		A0120997F40067337EFA0C1D85FC4270 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BB1FB020E6D1F504A9434E705EFC3F /* MJRefreshBackGifFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A041C116F7E1E65C126783F0A3AF0A58 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF5E564B84626B9E667E93050AAC2AC /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A09D49940928AEA29AA851F4A8284C9B /* YJSpeechFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F976D07613A035534ED2A7ADE1FE4A8F /* YJSpeechFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C426EB2424708A5F0E81BBCDB8DE5E /* TMRelearnRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9230F794EF40CBBE7BBF8C7D0ABB3024 /* TMRelearnRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A119ABC2965689EC7C385C42C53CD4C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB3628B77B0FDA968C25E4C4055F77 /* SystemConfiguration.framework */; };
 		A1C8D9A3D1FCEEBEE0E7E2523A902558 /* YJSpeechResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C350447A2B7D8CA46F5E59889A0F0 /* YJSpeechResultModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A390B3A7FE2262D9C8A3366437A0C90C /* YJBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84734B212A04B3DD57F26FE0FEE25EC9 /* YJBTableView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -462,7 +466,6 @@
 		A4C08DA91C058A995D6DDC74E008B4B9 /* RACSignalSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F48DF5D94532393E96F00DB35DDDAF /* RACSignalSequence.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5057796D7C50456731E08A9EF15E89E /* RACKVOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DDFEF5AB0B19AD140A2CBF0B11D976 /* RACKVOChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5181C5B000B8EB079FA2EAE985954FD /* YJAlertViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 692F97048EEC1AD5F586DDBC695FB4B3 /* YJAlertViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A52AE9883A233576999CF092B7A98E7D /* TMRelearnSpeakFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB51A348C4A8CD0152F0FE781EF2608 /* TMRelearnSpeakFooterView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5A2C204EFCF897638FD109000C16B3B /* UIDevice+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D5D6A008BAC2252F45938F5A4B6D1 /* UIDevice+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A610AFAF17A4D6F53EF052BFCE187311 /* UIButton+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = D03050556D934EF2FE097B0039B2797A /* UIButton+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6277127702A12B7153F55712680D2D5 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9774F4199761448020FEE189F079A7BA /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -481,13 +484,14 @@
 		AC2120E0307A40BBFF08971F0909180E /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD8ED52153D8A863F042B6A2F9A590E /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACC7DCC5F05839BDC69B8F8176089F59 /* UICollectionViewFlowLayout+PSG_ChainFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = E04F1C06C3A9765AD25505BF597E4FD8 /* UICollectionViewFlowLayout+PSG_ChainFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD27357D2A7C28F4B93003E666452164 /* Pods-TMRelearnModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1EC6014528F543CE8D944A8C832FCA /* Pods-TMRelearnModule_Example-dummy.m */; };
-		AE3EF2C86ABB4B6D30FA0D399C3A8A9C /* TMRelearnResultDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0102E7B876807BE0CF00BD3DAF7820 /* TMRelearnResultDetailViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AE6D836CA5E77B57EAB2BB562F1BDD29 /* RACUnarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8ACD557DF40EF8C42C06DB984F6C7D /* RACUnarySequence.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AE966DA1E3F2F01D79401B967DEA5404 /* LGAlertHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E540F652DC39CB470DDC4541FC65205 /* LGAlertHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AEA23872DEE46E6E4E7DB10F9A5CDC64 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23C8131C63052A9FE34E5081A5BB37 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 783950A36198785A215F2EDB257CDC31 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEF875C19BBB4AEFD258368CB71D85F6 /* YJActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9D7E0562AC71A2FBAA3946A25D7297 /* YJActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0CE57CF23B23EF7EB43C45A6819775 /* TMRelearnWordsListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF55BE7B5EE62FF1EE32A6EA24A094F /* TMRelearnWordsListViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B1008363926DF87F71B2851C1C52E817 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D31DE3FFA469F692BB726905E0615F /* MJRefreshBackNormalFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1050DD07386C6D84041D4431A11AE38 /* TMRelearnKnowledgeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F88A153B3D921D00A2CF89BB7A15A685 /* TMRelearnKnowledgeModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B15B4DF4B7666996FB16ED7544EB6070 /* RACTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA7C9BE24BBF0157367CD96872E6F8 /* RACTuple.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B19BBCE55ED44337D6D0B46A46010237 /* NSData+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8255D8BCB52687F880B1410E2F3572 /* NSData+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB3628B77B0FDA968C25E4C4055F77 /* SystemConfiguration.framework */; };
@@ -517,15 +521,17 @@
 		B82EDEDA61A4792ED98531D0A27D7031 /* YJBHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89B2D2298FFA0C6F4C4A280EE5AC61 /* YJBHpple.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B85292D24704123A6AAA666F25BCABCC /* NSBundle+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = A301FC9342D47600B445E00C79E16E4D /* NSBundle+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B89FC839CEE025E6AD746BA20852C272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C029612DDA60A1A2E2FC3ABF138617E0 /* Foundation.framework */; };
+		B8D12DBE7507A7153D59590C0EA55471 /* TMRelearnResultDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 40431F52A9C17756DF8B55749DEB4306 /* TMRelearnResultDetailCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B8EE5DA9B5DE1203593428D0659E9E1C /* YJUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49BB5BDC7BA72EC2FBED91CB0F1862 /* YJUploadModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B910E74309A637DFFA06E16581651F32 /* YJTaskMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 452B7E2B82F4414BF83F6FB70E01A5F6 /* YJTaskMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = BF07EE6E420ADD116D98C3575FF29F81 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9B0A52199BC1AD3054E8175915ACB8E /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5D51826A2BCCFDD9A8FF8420C99E8 /* DDOSLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B9B74C1C24EE08068CB81F04321B5D8A /* TMRelearnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2648E70024682677DF7C3DFF8D465FD /* TMRelearnManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BA0E4D8C47AE8A953AEA9ACDF0F31D0F /* TMRelearnListenFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8546B7E1F6AB14CC56F99BEF186B7EE /* TMRelearnListenFooterView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BAE748700C3E8EFE64E11D7319EEF989 /* ReactiveObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B99BE9E9C92948E484A7915C3A4556E /* ReactiveObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB8129A824BEC6290AEFF56EDE50F3C3 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D6DEAD5AA457F724BAA8B278A56B8A /* NSBundle+MJRefresh.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BBC3BAA6C1FE285B299066D6AA1BD138 /* UIViewController+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C19642284491BAE204593ECD84892 /* UIViewController+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBD1D7F114628ADA0EBD9051FDCA857D /* UIDatePicker+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2062FF91B4B80A2B338E86FADB2E2792 /* UIDatePicker+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BD128912EA841997C83275F29CEE33AD /* TMRelearnResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 476BCEE4B0E48BD8478224709349E81E /* TMRelearnResultViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BD15AC64F610C2B0D9B5ED948CAF4FB8 /* UITextView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A26F11FC53ACA991C397D7122A21585 /* UITextView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD8985FCC2D081D46CE0408D2F6D0DE9 /* ReactiveObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD5B5561CA806541BD297FB16E57927 /* ReactiveObjC-dummy.m */; };
 		BD9A09840189D37657887D1467CAA330 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D775D57929246699A8964E4BB831E5D1 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -539,7 +545,6 @@
 		C109899AA47E92C98DD4C5FC07D0893C /* RACValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 798FB061A2749619196176996E844F0B /* RACValueTransformer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C10A659F4261821FA41E8D8ECA7AEF9E /* RACArraySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC726C4CEA0CFADA05B50F3543904BD /* RACArraySequence.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C134D669C06E1BD92E03C40DE915E043 /* RACKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 21950F9D069625F45E4E32B2946B061D /* RACKVOProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C14140231E4E560217D4A8017559FF18 /* TMRelearnBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66975E95D8EE0F7714C7ACE2E2EA97C8 /* TMRelearnBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C15FC4AFB9BD1C13325ECD0BEA4203B5 /* LGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BCF42DF3C6B3DA4BD2358500047D8D /* LGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1C23E8DB63DAAEE129EDBA70EFBA963 /* YJSubtitleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4FE9903C3DF2C4A4E4782AAC1705B /* YJSubtitleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1EF07D0E3394AC497835C062FD25155 /* RACEmptySignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A75BF8736C112C9CBF9BF143C1CDBA /* RACEmptySignal.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -561,14 +566,12 @@
 		C7EC7F2C8B2FBBB9BA833DB12F611628 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AF83B7122905B07151871CB26FE4FA /* DDLog.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C7F4EA7AD12E4AE1CBD2A59E945F5C09 /* NSObject+RACDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB21F9846DC67B9134EE431EFC43983 /* NSObject+RACDescription.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C805CE3B301CD61637E297FA813C81FA /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1290E63D5715F38B4D7534A0AB004CAA /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C87AABCFCFD7CF0C5FDB75DB1F6087F4 /* TMRelearnResultDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 40431F52A9C17756DF8B55749DEB4306 /* TMRelearnResultDetailCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C9003D7071DD062BC3BD67292A09AFD1 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B6E078CA4C83AF4B53E616FABFEC13 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C912EDCE2A0AB94301574E30BDBF8F58 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAC99DDF7EEE30AD83C62B83538B4DA /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C91E4D3A9AC2C101568508C0897437A4 /* KYTestEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDECDBA5517388AA46B8D003C18FC318 /* KYTestEngine.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C932982FFFD196E1ACA3BB8B0F099063 /* SGVocabularyAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94F53788A788C1E5EC877760325DC1 /* SGVocabularyAnswerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C9603A5302B14B102AFF120F05418F0B /* RACTupleSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8B645CE4B0FDC0608299C3F6194CA3 /* RACTupleSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C977A8A1A1968985E5F470245ECD2AA5 /* YJSpeechFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB86CA66215138999A9FC6D4C07C35 /* YJSpeechFileManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C985ED807696E42D8950BAEF851AA51B /* TMRelearnWordsListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF55BE7B5EE62FF1EE32A6EA24A094F /* TMRelearnWordsListViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C9AF6D8019C014E5C6702214EC196145 /* RACScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 567B5D65B90A22E505160AC946E33E86 /* RACScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C9C7C2E44FEEDC0304E3F0197FD9E0A5 /* UITextField+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCC599500AC8B11D2AD3E8704A58591 /* UITextField+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA2E10636D62EA65FC636DAD0DE9BF20 /* NSArray+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1730685676C3BB13E5A990B42607C /* NSArray+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -604,7 +607,6 @@
 		D39258FF6D4150B91D98348535241FF7 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 66083BBA13EAA3CE9A3CC0E9FBC97E41 /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D4387995EF1BDC369F57024A9BB001F5 /* RACDisposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 145BE9E79622D44D377423A9F11F810A /* RACDisposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D439AF1DF9626F8D4639D94F9D599AF1 /* UITextView+PSG_ChainFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9E2A6E1A4D9A33AF48186AC939F016 /* UITextView+PSG_ChainFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D45900F15E7E2F6B8049AA4D38517CF2 /* TMRelearnListenCountDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A0F8D7D1906A1DDBA89A51C110E588 /* TMRelearnListenCountDownView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D476A1AD427ED4B951ACCB95459033CC /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D57B687DA1A4345265F721FC57E7ACF3 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D491C73F0F9DF5288690FA8F8C74F18C /* UIImagePickerController+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 366F2D5D51C5CBBFE2AA40B7F98A1938 /* UIImagePickerController+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D52D1B0B25034D936D6944C2099CEE54 /* NSArray+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAC1B4231EEDC163A53C9F6EB37576C /* NSArray+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -646,7 +648,7 @@
 		E1ADECF1D423AE731BB9A64067F3C142 /* UIStepper+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD6A352E95107EEFE38FFD0F0311C6F /* UIStepper+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D454E0F8FE27CCF37811A23F34149E /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BC36954288AB41E96A2E7536DF3947 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 562C9CCF6B578CC8D1AA64C2E3738C49 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2B2F2FED2114C2F7C76D950FDE87F31 /* TMRelearnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2648E70024682677DF7C3DFF8D465FD /* TMRelearnManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2763451CBD293EAF056724682A9705B /* TMRelearnResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 476BCEE4B0E48BD8478224709349E81E /* TMRelearnResultViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E36847BC7B429C4591FDC19119DE8C8D /* YJAlertViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5A9A3682872291180387FE78B2A7B /* YJAlertViewWindow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E37C62361E7B9A1B99AA47A961B8401E /* NSString+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 070126C44E8428F627F09DABD0E2EDD9 /* NSString+RACSequenceAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E3A1F4DDA1915B67BBC409562971D833 /* MarqueeLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4829F32BE3641AA71F37B02E537DF779 /* MarqueeLabel.framework */; };
@@ -655,6 +657,7 @@
 		E55C08AFA0E85F95398798944F3B5F27 /* SGSingleAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BBC2645647E191F73514DBAE20EB15 /* SGSingleAudioPlayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E61A0436AF1AE848492FF7DF186B62AD /* UIControl+PSG_ChainFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D37C75386CB880395F719124193EF3A /* UIControl+PSG_ChainFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E62732611C4AFA4B8F8708E16D98276D /* LGLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B95307A463EA3096F7556C2029967B2 /* LGLog.framework */; };
+		E6C382697A94850950710425076C05F2 /* TMRelearnWordsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C99287F0FA44116482AF93528E39080 /* TMRelearnWordsDetailViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E6EB37AD851A43B6D8C1A6584B5AA7BA /* YJAlertViewShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2D29886B34BA86A9F59D8109DE33D /* YJAlertViewShadowView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E76E7F05A63C79C2ED7DD2D3B351A9FF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 19195BC4B22252810BEC2521C799928B /* Reachability.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E8397DAEDEE1FA3096688EB33F4A4C46 /* UIWindow+YJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3905D49872C4C923462BF9ED8EF7C619 /* UIWindow+YJAlertView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -684,13 +687,11 @@
 		F2C844EC71C6D90F6DFEE6627B0CEBF0 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CEA01F431141FEC8C005AF3AE45C94 /* UIScrollView+MJRefresh.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F301147212E3D6E476325F4853AC27D6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6554399B84F5614FCD8B49B9D565DC3A /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E54E35F4B0D4FD69C12E37FABD52B6 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F487F1E35ABB287C345C6BCFD3DEBF35 /* TMRelearnSpeakTipsAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E493D2B1E4A1004F64F6262609FB3E /* TMRelearnSpeakTipsAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4BAADC3D4FF29A2EAFC147BC92977F2 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D43CF4E550C113C09392C1450D1745C /* NSObject+MJKeyValue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F4F0AA9942C09D21388A7E1D21EFFD3F /* SGVocabularyVoiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = BA44ABB4D318607578EBD4DD8F1C1724 /* SGVocabularyVoiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AA2ED0176CA5BBC60AD4A5BD336E69 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F501541B78A1AA68F999404561378BC9 /* UIWindow+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3FCB9298684AD8F2596ECA3EE225F9 /* UIWindow+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F5350550788773CB9DABA4F95D8E55AB /* NSUserDefaults+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DA524818DC5F5C267A913A089AF3F9B7 /* NSUserDefaults+RACSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F53E13337928F34010C4B681323FF343 /* TMRelearnSpeakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EC9E32BC86D16D4EE10A91B18AAD70 /* TMRelearnSpeakViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F57BA25385E6996D6EC18EDD97E596FE /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DF30E32A6D3BB12598847A5E1CEFDC /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6E46153FD3364C0D98D5300594399F6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE62D7443708E4FE5F4AE8F5BF80A7C2 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F79008EFD88DFE862E007A701E3B437F /* UIDevice+YJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FDFCEA258E6086F0C4ACDA3447C36D /* UIDevice+YJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -703,11 +704,10 @@
 		F9F6D2E80B4C6B1FD4B859A55CC34398 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 983D4B7591594A73B4F11314A2C7D699 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0558EA6A725038DCDF904031C0F4DB /* YJAlertViewButtonProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE1EC0DA22A5174830605A766D8C615 /* YJAlertViewButtonProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 27205EC5BFAF353487FD27AD8B868B11 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAEC6DC058D05C3E583C074D57E787CA /* TMRelearnRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9230F794EF40CBBE7BBF8C7D0ABB3024 /* TMRelearnRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB6C4C1893B4C9196E6C46F16F22730A /* TMRelearnResultDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0102E7B876807BE0CF00BD3DAF7820 /* TMRelearnResultDetailViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FC2A4B77B28A18DC7DE51BD6790EA921 /* YJAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4304B01D62BAB1FB34A5C7411F6B1B /* YJAlertViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FDCF0A9131846BE7B07B0FFA7A9B33C2 /* RACEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4036CEC5EFF0EAD804C241F9B437898 /* RACEvent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FDDAAD32226BEA629E35F27FDB3DA88B /* RACMulticastConnection+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DDBDAD4FF95414D2BC609CDA58836B /* RACMulticastConnection+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FE64E75459C3C507F40C57A0BB7B20A7 /* TMRelearnSpeakCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4775FAB89C68C717A18A0497901A8C /* TMRelearnSpeakCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FE938D2A6A0EB712D125B42CB92BF982 /* UICollectionReusableView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CF5CB660F5F883F18210E854D7C1F /* UICollectionReusableView+RACSignalSupport.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FEA38D76E7750ECC16C4DDCEFB6B7B9C /* TMRelearnWordsDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E88D5392AF33F41EBCAD7E49131B07B6 /* TMRelearnWordsDetailHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FF13C8E06F7E725F4C1402CF2FBEA4F4 /* UIImage+YJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED17F629556A1FDBDE268921D2AC41F /* UIImage+YJ.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -3755,33 +3755,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CD3AA3B10560973818E5EC9489D4734 /* TMRelearnAlertView.h in Headers */,
-				C14140231E4E560217D4A8017559FF18 /* TMRelearnBaseViewController.h in Headers */,
-				756DF15604BF0E2C54423FC85A87004A /* TMRelearnDisplayLink.h in Headers */,
-				08E400CE061EF5590A345DF4B7441BB3 /* TMRelearnKnowledgeModel.h in Headers */,
-				0BA5FD2D362567055295ED22E09CF9E1 /* TMRelearnListenCell.h in Headers */,
-				D45900F15E7E2F6B8049AA4D38517CF2 /* TMRelearnListenCountDownView.h in Headers */,
-				8EE648F04DDC3E23E9162F8A6C248A3F /* TMRelearnListenFooterView.h in Headers */,
-				394585045E873E03416100BA32C9BD7B /* TMRelearnListenViewController.h in Headers */,
-				13385B7D6380588B35D770CE2EF17C2F /* TMRelearnMacros.h in Headers */,
-				E2B2F2FED2114C2F7C76D950FDE87F31 /* TMRelearnManager.h in Headers */,
+				960430761844DEFF109629E08E6ECF58 /* TMRelearnAlertView.h in Headers */,
+				38C50A1352BBFBE55278FB77DCD5BBC9 /* TMRelearnBaseViewController.h in Headers */,
+				9288D6613F9856B7D39F792C1571EFAE /* TMRelearnDisplayLink.h in Headers */,
+				B1050DD07386C6D84041D4431A11AE38 /* TMRelearnKnowledgeModel.h in Headers */,
+				73788D64637C6BF8C48275C8C17E565F /* TMRelearnListenCell.h in Headers */,
+				2B71CF57E7A51FB5C6D05395ADD2F56D /* TMRelearnListenCountDownView.h in Headers */,
+				BA0E4D8C47AE8A953AEA9ACDF0F31D0F /* TMRelearnListenFooterView.h in Headers */,
+				8E7D8587B3969717388399CC9E376CF4 /* TMRelearnListenViewController.h in Headers */,
+				833B626D0EC1809138A5B4A6FBBDE9BB /* TMRelearnMacros.h in Headers */,
+				B9B74C1C24EE08068CB81F04321B5D8A /* TMRelearnManager.h in Headers */,
 				035C4ED271E9EEE9C71786BAA5040FC6 /* TMRelearnModule-umbrella.h in Headers */,
-				FAEC6DC058D05C3E583C074D57E787CA /* TMRelearnRequest.h in Headers */,
-				C87AABCFCFD7CF0C5FDB75DB1F6087F4 /* TMRelearnResultDetailCell.h in Headers */,
-				9695B6C16B15BABF5945B7ED461FFFB1 /* TMRelearnResultDetailFooterView.h in Headers */,
-				AE3EF2C86ABB4B6D30FA0D399C3A8A9C /* TMRelearnResultDetailViewController.h in Headers */,
-				BD128912EA841997C83275F29CEE33AD /* TMRelearnResultViewController.h in Headers */,
-				FE64E75459C3C507F40C57A0BB7B20A7 /* TMRelearnSpeakCell.h in Headers */,
-				A52AE9883A233576999CF092B7A98E7D /* TMRelearnSpeakFooterView.h in Headers */,
-				60A29F39E4D78AF1A5AD45BF9C9EB040 /* TMRelearnSpeakManager.h in Headers */,
-				F487F1E35ABB287C345C6BCFD3DEBF35 /* TMRelearnSpeakTipsAlertView.h in Headers */,
-				F53E13337928F34010C4B681323FF343 /* TMRelearnSpeakViewController.h in Headers */,
-				7A43BE272497C0B8A9D12348AF94FB2C /* TMRelearnWordsDetailCell.h in Headers */,
-				4C023FE721B85DE93A8718F00A1F0617 /* TMRelearnWordsDetailHeaderView.h in Headers */,
-				3330CBA068007BA914848E3DDC0009F1 /* TMRelearnWordsDetailViewController.h in Headers */,
-				7F3B27A277A437E34A672038E37DF9F9 /* TMRelearnWordsListFooterView.h in Headers */,
-				C985ED807696E42D8950BAEF851AA51B /* TMRelearnWordsListViewController.h in Headers */,
-				0F7385ACA234054F3FE55241411F166A /* UIImage+TMResource.h in Headers */,
+				A0C426EB2424708A5F0E81BBCDB8DE5E /* TMRelearnRequest.h in Headers */,
+				B8D12DBE7507A7153D59590C0EA55471 /* TMRelearnResultDetailCell.h in Headers */,
+				5353212D1C14BA63C0C03BEDCECF9281 /* TMRelearnResultDetailFooterView.h in Headers */,
+				FB6C4C1893B4C9196E6C46F16F22730A /* TMRelearnResultDetailViewController.h in Headers */,
+				E2763451CBD293EAF056724682A9705B /* TMRelearnResultViewController.h in Headers */,
+				94EF72F9F85F31E95787EB5B4D684161 /* TMRelearnSpeakCell.h in Headers */,
+				375A2FABD38975B7196CF09F34948A6B /* TMRelearnSpeakFooterView.h in Headers */,
+				6CDB4E9CF72E48C30CDF74C37CEF797C /* TMRelearnSpeakManager.h in Headers */,
+				7639436C3BEA3ABD1DC76AA5C694B410 /* TMRelearnSpeakTipsAlertView.h in Headers */,
+				7B02337DA1F29ED0CA0C5497C366EA1A /* TMRelearnSpeakViewController.h in Headers */,
+				244D3DDAAE8FA86DC65BC8BC5E27289D /* TMRelearnWordsDetailCell.h in Headers */,
+				8180ACCBA8EC134C664C06ACC7FF3115 /* TMRelearnWordsDetailHeaderView.h in Headers */,
+				E6C382697A94850950710425076C05F2 /* TMRelearnWordsDetailViewController.h in Headers */,
+				5825D364B4FF132FC9DC2CDA339471D1 /* TMRelearnWordsListFooterView.h in Headers */,
+				AF0CE57CF23B23EF7EB43C45A6819775 /* TMRelearnWordsListViewController.h in Headers */,
+				1AE86EEA407A032B26BF88C1FB3D09E8 /* UIImage+TMResource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

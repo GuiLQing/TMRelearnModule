@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "TMRelearnManager.h"
 
 FOUNDATION_EXPORT double TMRelearnModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char TMRelearnModuleVersionString[];
