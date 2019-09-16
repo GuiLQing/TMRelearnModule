@@ -14,31 +14,37 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - LGAlertHUD (1.0.6):
-    - LGAlertHUD/AlertView (= 1.0.6)
+  - LGAlertHUD (1.0.8):
+    - LGAlertHUD/AlertView (= 1.0.8)
     - Masonry
     - YJExtensions
-  - LGAlertHUD/AlertView (1.0.6):
+  - LGAlertHUD/AlertView (1.0.8):
     - Masonry
     - YJExtensions
+  - LGLog (1.0.2):
+    - LGLog/LGLogManager (= 1.0.2)
+    - LGLog/YJCocoaLumberjack (= 1.0.2)
+  - LGLog/LGLogManager (1.0.2):
+    - LGLog/YJCocoaLumberjack
+  - LGLog/YJCocoaLumberjack (1.0.2)
   - MarqueeLabel (3.2.0):
     - MarqueeLabel/ObjC (= 3.2.0)
   - MarqueeLabel/ObjC (3.2.0)
   - Masonry (1.1.0)
-  - MJExtension (3.1.0)
+  - MJExtension (3.1.2)
   - MJRefresh (3.2.0)
   - PSGChainedMode (1.1.5):
     - ReactiveObjC
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
-  - SGTools/SGGradientProgress (1.1.2)
-  - SGTools/SGSingleAudioPlayer (1.1.2)
-  - SGTools/SGSpeechSynthesizer (1.1.2)
-  - SGTools/SGTriangleView (1.1.2)
-  - SGTools/SGVocabularyDictation (1.1.2):
+  - SGTools/SGGradientProgress (1.2.2)
+  - SGTools/SGSingleAudioPlayer (1.2.2)
+  - SGTools/SGSpeechSynthesizer (1.2.2)
+  - SGTools/SGTriangleView (1.2.2)
+  - SGTools/SGVocabularyDictation (1.2.2):
     - Masonry
   - TFHpple (2.0.0)
-  - TMRelearnModule (1.0.0.1):
+  - TMRelearnModule (1.0.0.2):
     - AFNetworking
     - MarqueeLabel (= 3.2.0)
     - Masonry
@@ -55,11 +61,13 @@ PODS:
     - YJNetManager
     - YJTaskMark
   - YJActivityIndicatorView (1.0.0)
-  - YJBaseModule (1.0.5):
-    - YJBaseModule/Base (= 1.0.5)
-    - YJBaseModule/Manager (= 1.0.5)
-    - YJBaseModule/MarqueeLabel (= 1.0.5)
-  - YJBaseModule/Base (1.0.5):
+  - YJBaseModule (1.1.5):
+    - YJBaseModule/Base (= 1.1.5)
+    - YJBaseModule/Manager (= 1.1.5)
+    - YJBaseModule/MarqueeLabel (= 1.1.5)
+    - YJBaseModule/YJBHpple (= 1.1.5)
+    - YJBaseModule/YJBWebView (= 1.1.5)
+  - YJBaseModule/Base (1.1.5):
     - LGAlertHUD
     - Masonry
     - MJExtension
@@ -67,25 +75,33 @@ PODS:
     - YJActivityIndicatorView
     - YJBaseModule/Manager
     - YJExtensions
-  - YJBaseModule/Manager (1.0.5):
+  - YJBaseModule/Manager (1.1.5):
     - YJExtensions
-  - YJBaseModule/MarqueeLabel (1.0.5)
-  - YJExtensions (1.1.5):
-    - YJExtensions/Foundation (= 1.1.5)
-    - YJExtensions/UIKit (= 1.1.5)
-  - YJExtensions/Foundation (1.1.5):
+  - YJBaseModule/MarqueeLabel (1.1.5)
+  - YJBaseModule/YJBHpple (1.1.5)
+  - YJBaseModule/YJBWebView (1.1.5):
+    - Masonry
+    - YJBaseModule/Manager
+    - YJBaseModule/MarqueeLabel
+    - YJBaseModule/YJBHpple
+    - YJExtensions
+  - YJExtensions (1.1.6):
+    - YJExtensions/Foundation (= 1.1.6)
+    - YJExtensions/UIKit (= 1.1.6)
+  - YJExtensions/Foundation (1.1.6):
     - TFHpple
-  - YJExtensions/UIKit (1.1.5):
+  - YJExtensions/UIKit (1.1.6):
     - YJExtensions/Foundation
-  - YJNetManager (1.1.3):
+  - YJNetManager (1.1.7):
     - AFNetworking
+    - LGLog
     - Reachability
     - YJExtensions
-  - YJTaskMark (1.0.4):
-    - YJTaskMark/kuyou (= 1.0.4)
-    - YJTaskMark/Util (= 1.0.4)
-  - YJTaskMark/kuyou (1.0.4)
-  - YJTaskMark/Util (1.0.4):
+  - YJTaskMark (1.1.0):
+    - YJTaskMark/kuyou (= 1.1.0)
+    - YJTaskMark/Util (= 1.1.0)
+  - YJTaskMark/kuyou (1.1.0)
+  - YJTaskMark/Util (1.1.0):
     - LGAlertHUD
     - YJExtensions
     - YJNetManager
@@ -98,6 +114,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - LGAlertHUD
+    - LGLog
     - MarqueeLabel
     - Masonry
     - MJExtension
@@ -119,23 +136,24 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LGAlertHUD: 140dbfe623d32139a0d3ffcd3c128cbc8f595fff
+  LGAlertHUD: 361c84e13876d5c044847725156dccf3558fc0a3
+  LGLog: a58e542c6c99755d1b8eca492b2acf70a3115731
   MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: 6b69b3bef2864fd550ce1a184eda219e321209d2
+  MJExtension: 81e8e411ced318561dd09334b0c83d8227cef79c
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   PSGChainedMode: c84781f08097d1677fe945701f54b4e189a82966
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SGTools: 8fc9d00a477df89f787b56995ecb38c4981ad4fc
+  SGTools: a75a201b7342e384d57cbbb27b13721423423169
   TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
-  TMRelearnModule: 0d8e6409703af1aa357e2a4d84e99feb20c5841b
+  TMRelearnModule: 14dd1f6a552b211e86f16e715877863f7ab53298
   YJActivityIndicatorView: f51112fa59d69762bd6147cf0da573ff2a9a0215
-  YJBaseModule: 18429b1c2747fe8c341bc022e44b9913faf1ba81
-  YJExtensions: e1f7e35f8e851ed41598d8449fc3735ef4b6bddc
-  YJNetManager: 005f4e5b3766a3f9bd95502659f61156e8efa5db
-  YJTaskMark: 66348e96200dfd17d9bf0bb346c6cf0ed9bbddd2
+  YJBaseModule: e4c833b569514d940db9fba9ec64ed19c7cbac31
+  YJExtensions: d4b5ac7e1004d05dc6425b9aff3b8437d93ef1ad
+  YJNetManager: 5cbce806ad8c71d67b54217cf830391c786ebddf
+  YJTaskMark: 9de58e1c3cb3828ac745a197db2421950e5aae4e
 
 PODFILE CHECKSUM: 47050fbbb3e22f7f028da0c882d16377ad876f10
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.7.5

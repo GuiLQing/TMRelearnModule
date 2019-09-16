@@ -7,7 +7,8 @@
 //
 
 #import "TMViewController.h"
-#import "TMRelearnManager.h"
+//#import "TMRelearnManager.h"
+#import <TMRelearnModule/TMRelearnManager.h>
 
 @interface TMViewController ()
 
