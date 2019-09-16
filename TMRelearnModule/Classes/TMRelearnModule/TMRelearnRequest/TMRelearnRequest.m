@@ -22,11 +22,13 @@
         serverAddress = [TMRelearnManager defaultManager].serveUrl;
     }
     path = [serverAddress stringByAppendingPathComponent:path];
+    
+    __weak typeof(self) weakSelf = self;
     [YJNetManager.createManager
      .setRequest(path)
      .setParameters(params).
      setRequestType(YJRequestTypeMD5POST) startRequestWithSuccess:^(id  _Nonnull response) {
-         [self tm_requestSuccessWithDataTask:nil responseObject:response serverAddress:serverAddress path:path params:nil success:success failure:failure];
+         [weakSelf tm_requestSuccessWithDataTask:nil responseObject:response serverAddress:serverAddress path:path params:nil success:success failure:failure];
      } failure:^(NSError * _Nonnull error) {
          if (failure) failure(error);
      }];
@@ -42,11 +44,12 @@
         serverAddress = [TMRelearnManager defaultManager].serveUrl;
     }
     path = [serverAddress stringByAppendingPathComponent:path];
+    __weak typeof(self) weakSelf = self;
     [YJNetManager.createManager
      .setRequest(path)
      .setParameters(params).
      setRequestType(YJRequestTypeMD5GET) startRequestWithSuccess:^(id  _Nonnull response) {
-         [self tm_requestSuccessWithDataTask:nil responseObject:response serverAddress:serverAddress path:path params:nil success:success failure:failure];
+         [weakSelf tm_requestSuccessWithDataTask:nil responseObject:response serverAddress:serverAddress path:path params:nil success:success failure:failure];
      } failure:^(NSError * _Nonnull error) {
          if (failure) failure(error);
      }];
@@ -66,6 +69,12 @@
     
     if (success && !error && ([[json allKeys] containsObject:@"Status"] && ([json[@"Status"] integerValue] == 1 || [json[@"Status"] integerValue] == 0))) {
         success(json);
+    } else if ([path hasSuffix:@"GetCourseware"] && success && !error && ![[json allKeys] containsObject:@"BusinessStatus"]) {
+        if (json) {
+            success(@{@"Data" : json});
+        } else {
+            success(@{@"Data" : @{}});
+        }
     } else if (failure) {
         failure(error);
     }

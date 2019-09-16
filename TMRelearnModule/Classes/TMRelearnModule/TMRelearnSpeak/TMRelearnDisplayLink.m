@@ -20,17 +20,6 @@
 
 @implementation TMRelearnDisplayLink
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(displayLinkAction)];
-        [_displayLink addToRunLoop:NSRunLoop.currentRunLoop forMode:NSRunLoopCommonModes];
-        _displayLink.paused = YES;
-    }
-    return self;
-}
-
 - (void)displayLinkAction {
     _counter ++;
     _currentTime += 1.0 / 60;
@@ -42,20 +31,24 @@
     if (self.remaindTimeIntervalCallback) self.remaindTimeIntervalCallback(remaindTimeInterval);
     
     if (_currentTime >= _duration) { //倒计时结束
-        _displayLink.paused = YES;
+        [self stopDisplayLink];
         if (self.completeCallback) self.completeCallback();
     }
 }
 
 - (void)restartDisplayLinkWithDuration:(NSTimeInterval)duration {
+    self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(displayLinkAction)];
+    
     self.currentTime = 0;
     self.counter = 0;
     self.duration = duration;
     
+    [self.displayLink addToRunLoop:NSRunLoop.currentRunLoop forMode:NSRunLoopCommonModes];
     self.displayLink.paused = NO;
 }
 
 - (void)stopDisplayLink {
+    [self.displayLink invalidate];
     self.displayLink.paused = YES;
 }
 

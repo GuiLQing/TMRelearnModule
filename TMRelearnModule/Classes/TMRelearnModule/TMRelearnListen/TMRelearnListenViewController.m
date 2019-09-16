@@ -58,7 +58,6 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = [NSString stringWithFormat:@"听写(1/%li)",self.knowledgeDataSource.count];
     
     self.startDate = [NSDate date];
     
@@ -71,6 +70,12 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
     
     /** 进入后台 */
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willResignActive:) name:UIApplicationWillResignActiveNotification object:nil];
+    
+    @weakify(self);
+    [RACObserve(self, currentIndex) subscribeNext:^(id  _Nullable x) {
+        @strongify(self);
+        self.title = [NSString stringWithFormat:@"听写(%li/%li)", self.currentIndex + 1, self.knowledgeDataSource.count];
+    }];
 }
 
 - (void)willResignActive:(NSNotification *)noti {
@@ -129,7 +134,7 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
         [LGAlert showStatus: index < 0 ? @"没有上一个了！" : @"没有下一个了！"];
         return;
     }
-     self.title = [NSString stringWithFormat:@"听写(%li/%li)",index+1,self.knowledgeDataSource.count];
+    
     self.currentIndex = index;
     [self playAudio];
     [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
@@ -202,7 +207,7 @@ static NSString * const TMRelearnListenCellIdentifier = @"TMRelearnListenCellIde
     } completionHandle:^(NSError * _Nullable error) {
         @strongify(self);
         if (error) {
-            [LGAlert showStatus:@"音频资源错误，启用系统播放"];
+//            [LGAlert showStatus:@"音频资源错误，启用系统播放"];
             [SGSpeechDefaultManager speechWithEnglishText:TMFilterHTML(self.knowledgeDataSource[self.currentIndex].cwName) completion:^{
                 @strongify(self);
                 [self resetCountView];

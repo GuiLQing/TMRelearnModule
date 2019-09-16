@@ -178,6 +178,7 @@ static CGFloat const TMRelearnSpeakFooterViewHeight = 50.0f;
 }
 
 - (void)startCurrentIndexStudy {
+    [TMRelearnSpeakManager.defaultManager stopWordsStudy];
     [SGSpeechDefaultManager cancelSpeech];
     [self.collectionView reloadData];
     self.footerView.updateParaphraseButtonDisabled(NO);
@@ -189,18 +190,18 @@ static CGFloat const TMRelearnSpeakFooterViewHeight = 50.0f;
         self.currentStudyIndex = 0;
         BOOL isAllLearned = YES;
         for (TMRelearnKnowledgeModel *model in self.dataSource) {
-            if (model.status != TMWordsStatusNormal) {
+            if (model.status != TMWordsStatusPassed) {
                 isAllLearned = NO;
                 break;
             }
         }
         if (self.collectionView.mj_footer.state == MJRefreshStateNoMoreData) {
-            if (!isAllLearned) {
-                [self startNextAvailableIndexStudy];
-            } else {
+//            if (!isAllLearned) {
+//                [self startNextAvailableIndexStudy];
+//            } else {
                 self.footerView.updateStartButtonDisabled(YES);
                 [LGAlert showStatus:@"本页单词已全部学习，可以通过点击单词继续学习！"];
-            }
+//            }
             return;
         }
         NSString *tipsTitle = isAllLearned ? @"本页单词已全部学习" : @"本页还有未学习单词";
